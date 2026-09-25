@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- _global -->
+<layer version="41">
+	<entities>
+		<entity id="140fe87b13ea669">
+			<ECSoundMarker key="Env_Dvst_Prfb_chs_horn" />
+			<ECTransform position="660.35468 4.36736 396.34116" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask=""/>
+		</entity>
+		<entity id="1538b8a3ff87c3c">
+			<ECSoundMarker key="Env_Dvst_Prfb_nag_monolith" />
+			<ECTransform position="157.42937 3.46118 471.90228" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask=""/>
+			<ECSphere radius="0.46895483136177063"/>
+		</entity>
+		<entity id="1719be4e23aba3a">
+			<ECSoundMarker key="Env_Dvst_Prfb_nag_crater_small" />
+			<ECTransform position="61.53117 0.89427 407.77817" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask=""/>
+			<ECSphere radius="0.5"/>
+		</entity>
+		<entity id="18e50878335080c">
+			<ECSoundMarker key="Env_Dvst_Prfb_nag_skull" />
+			<ECTransform position="660.87225 4.90833 395.72461" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask=""/>
+			<ECSphere radius="0.699999988079071"/>
+		</entity>
+		<entity id="17adafed5b00fd8">
+			<ECSoundMarker key="Env_Dvst_Prfb_skv_nogo_small" />
+			<ECTransform position="660.35468 4.47975 396.34116" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask=""/>
+			<ECSphere radius="0.5"/>
+		</entity>
+		<entity id="17e37ab4c4e9cda" name="devastation_chaos">
+			<ECLayer export="true" bmd_export_type="devastation_chaos"/>
+		</entity>
+		<entity id="1663ed1cce8f027" name="sound">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+		<entity id="151678db4f63913" name="devastation_nagash">
+			<ECLayer export="true" bmd_export_type="devastation_nagash"/>
+		</entity>
+		<entity id="1b82783b7be8882" name="sound">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+		<entity id="13ec39ddbfd6845" name="devastation_skaven">
+			<ECLayer export="true" bmd_export_type="devastation_skaven"/>
+		</entity>
+		<entity id="19f6a635cc16fa6" name="sound">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="17e37ab4c4e9cda">
+				<to id="1663ed1cce8f027"/>
+			</from>
+			<from id="1663ed1cce8f027">
+				<to id="140fe87b13ea669"/>
+			</from>
+			<from id="151678db4f63913">
+				<to id="1b82783b7be8882"/>
+			</from>
+			<from id="1b82783b7be8882">
+				<to id="1538b8a3ff87c3c"/>
+				<to id="1719be4e23aba3a"/>
+				<to id="18e50878335080c"/>
+			</from>
+			<from id="13ec39ddbfd6845">
+				<to id="19f6a635cc16fa6"/>
+			</from>
+			<from id="19f6a635cc16fa6">
+				<to id="17adafed5b00fd8"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

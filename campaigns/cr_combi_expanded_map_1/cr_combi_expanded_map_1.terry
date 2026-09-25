@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="27" id="107f6fee871c37d">
+  <pc type="QTU::ProjectTileMap">
+    <data terrain_setup="terrain/campaigns/cr_combi_expanded_map_1/" world_width="1068.1111" global_lighting="Weather/default_battle_cr_combi_expanded_map_1.environment" devastation_light_environments="devastation_chaos=Weather/et_apocalypse.environment,devastation_nagash=Weather/et_nagash.environment,devastation_skaven=Weather/et_green_moon.environment" ambient_light_environments="" water_plane_material="materials/environment/campaign_sea/cr_combi_expanded_map_1_campaign_water_plane.xml.material" extend_tile_blend_ranges_to_maximum="0"/>
+  </pc>
+  <pc type="QTU::Scene">
+    <data version="41">
+      <entity id="1d95d98caedcbbe" name="_global">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="134d7bb37cb9255" name="_environments">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13514fba830e1cf" name="wh3_main_combi_province_albion">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1c0c9fcc234eacb" name="wh3_main_combi_province_ancient_giant_lands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1b2c8fe4d3795c3" name="wh3_main_combi_province_argwylon">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="17af6f6f3e5817f" name="wh3_main_combi_province_ashen_coast">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="160c901ff9b83c6" name="wh3_main_combi_province_atalan_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1db8ca5e421d103" name="wh3_main_combi_province_avelorn">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1631024c1d8e686" name="wh3_main_combi_province_averland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13a3225d2e3a7ea" name="wh3_main_combi_province_axe_bite_pass">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="15eb03503481b70" name="wh3_main_combi_province_aymara_swamps">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1e5fe83d73a975e" name="wh3_main_combi_province_barrier_idols">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1458f7b95164179" name="wh3_main_combi_province_barrows_of_cuileux">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1c5e1fa193385ee" name="wh3_main_combi_province_bastonne">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="16604b6919ee860" name="wh3_main_combi_province_black_blood_pass">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="140413832c24cfc" name="wh3_main_combi_province_black_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1e67b3521432044" name="wh3_main_combi_province_black_water">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="139f3a46a6aef4f" name="wh3_main_combi_province_blightwater">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1d1b7bdd60c44f4" name="wh3_main_combi_province_blood_river_valley">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1c60da5b764b3cf" name="wh3_main_combi_province_bloodfire_falls">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="16ef619044292d6" name="wh3_main_combi_province_bone_road">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="17c26b61a41cc23" name="wh3_main_combi_province_broken_lands_of_tian_li">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="14f0e0ef99d529f" name="wh3_main_combi_province_broken_teeth">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="16f7adf97033338" name="wh3_main_combi_province_caledor">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ff1b3e1ff066fa" name="wh3_main_combi_province_carcassonne">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1467afec1c47472" name="wh3_main_combi_province_cathayan_hinterlands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="14c635299fdbed9" name="wh3_main_combi_province_celestial_lake">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="197b321c34c9109" name="wh3_main_combi_province_celestial_riverlands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ceb72a5967cc89" name="wh3_main_combi_province_central_great_bastion">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="176899c815eea98" name="wh3_main_combi_province_central_jungles">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="177596d148261cb" name="wh3_main_combi_province_chimera_plateau">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1e3e322313dbbe2" name="wh3_main_combi_province_chrace">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1829c71d53c6650" name="wh3_main_combi_province_coast_of_araby">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ed8cf8f35b4dc0" name="wh3_main_combi_province_coast_of_lyonesse">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="19b4930c1a08d77" name="wh3_main_combi_province_copper_desert">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1616663f4896949" name="wh3_main_combi_province_cothique">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a5b1977a382317" name="wh3_main_combi_province_crater_of_the_waking_dead">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1bb753ce7fc2513" name="wh3_main_combi_province_culchan_plains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="198ee45c94f54cb" name="wh3_main_combi_province_dawns_landing">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f74cf46f79fdf3" name="wh3_main_combi_province_deadrock_gap">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="173d9e3652b30d6" name="wh3_main_combi_province_deadwood">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13fe9741a0b1611" name="wh3_main_combi_province_death_pass">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="19ab60ab27fede3" name="wh3_main_combi_province_devils_backbone">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="16c584ab1912d71" name="wh3_main_combi_province_doom_glades">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f22e9cd4119113" name="wh3_main_combi_province_eagle_gate">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1346af9be8de55f" name="wh3_main_combi_province_eastern_badlands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1fcc324111fcf28" name="wh3_main_combi_province_eastern_border_princes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1905894c9ccb0b8" name="wh3_main_combi_province_eastern_colonies">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="136f1382503a723" name="wh3_main_combi_province_eastern_great_bastion">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="12b1e96ae0c765c" name="wh3_main_combi_province_eastern_oblast">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1430916b5f10c43" name="wh3_main_combi_province_eastern_steppes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13eb09f4e33d84d" name="wh3_main_combi_province_eataine">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="138c0dfd3df6870" name="wh3_main_combi_province_eight_peaks">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1e575e61db5842a" name="wh3_main_combi_province_ellyrion">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="165ae8c16595ba9" name="wh3_main_combi_province_estalia">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a32319d77f3f80" name="wh3_main_combi_province_forest_of_arden">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="16ce7987dfba313" name="wh3_main_combi_province_forest_of_chalons">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="15df89d22ce9068" name="wh3_main_combi_province_forest_of_gloom">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1bc4e23530ae2eb" name="wh3_main_combi_province_forests_of_the_moon">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13174f444bf0b62" name="wh3_dlc20_combi_province_frigid_wasteland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1859c76d666b9e6" name="wh3_main_combi_province_gash_kadrak">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="18e7c516f15a324" name="wh3_main_combi_province_gianthome_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13e08183e059c2d" name="wh3_main_combi_province_gnoblar_country">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="111ef386ccb9116" name="wh3_main_combi_province_goromadny_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1c9f91935b63401" name="wh3_main_combi_province_granite_hills">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="105ff648427c770" name="wh3_main_combi_province_great_desert_of_araby">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="12e994355e8904f" name="wh3_main_combi_province_great_mortis_delta">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="15b301d5be9b226" name="wh3_main_combi_province_griffon_gate">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f4301998657fe3" name="wh3_main_combi_province_gryphon_wood">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1b5f238938c121a" name="wh3_main_combi_province_gunpowder_road">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ff20bd99debf4b" name="wh3_main_combi_province_headhunters_jungle">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="104413626af7a78" name="wh3_main_combi_province_heart_of_the_jungle">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1fd150f66d37370" name="wh3_main_combi_province_helspire_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ba7c2bdf2ebe38" name="wh3_main_combi_province_hochland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="194317a8c423d47" name="wh3_main_combi_province_ice_tooth_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="151884ab7148761" name="wh3_main_combi_province_imperial_road">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="170fe5aa978f234" name="wh3_main_combi_province_iron_coast">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a0e2d853dce42f" name="wh3_main_combi_province_iron_foothills">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="178bbe92dea3443" name="wh3_main_combi_province_iron_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f5b33e5a58ffdc" name="wh3_main_combi_province_ironfrost_glacier">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1568ac83775d878" name="wh3_main_combi_province_ironsand_desert">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1840927f61c2604" name="wh3_main_combi_province_irrana_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1cd786acdfc1ba4" name="wh3_main_combi_province_isthmus_of_lustria">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ed69b129abe595" name="wh3_main_combi_province_ivory_road">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13caf08a7cc2fa3" name="wh3_main_combi_province_jade_river_delta">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1c4ad60c7127de6" name="wh3_main_combi_province_jungles_of_chian">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a2b5c42fc101a2" name="wh3_main_combi_province_jungles_of_green_mist">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1eda277fa310aa7" name="wh3_main_combi_province_jungles_of_pahualaxa">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1e56488d18bdf22" name="wh3_main_combi_province_kdatha">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1353f4381cd7bdf" name="wh3_main_combi_province_kingdom_of_beasts">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1721d7e01891e44" name="wh3_dlc29_combi_province_kraken_coast">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1d2acba3826b66a" name="wh3_main_combi_province_land_of_assassins">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13d3eb069c0266a" name="wh3_main_combi_province_land_of_the_dead">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1bf107d64dbe2ca" name="wh3_main_combi_province_land_of_the_dervishes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="107cfa94d861198" name="wh3_main_combi_province_lands_of_stone_and_steel">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a865dcaf5efaa1" name="wh3_main_combi_province_marches_of_couronne">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ff8470deb7cefb" name="wh3_main_combi_province_marshes_of_madness">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="19a75b8b93e5c94" name="wh3_main_combi_province_middenland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="152980fb37e5203" name="wh3_dlc20_combi_province_middle_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f7a5daf079207d" name="wh3_main_combi_province_mootland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="17d136a8036781a" name="wh3_main_combi_province_mosquito_swamps">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="10d78d0f3552ec4" name="wh3_main_combi_province_mount_li">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="12499cda97369a6" name="wh3_main_combi_province_mountains_end">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="19e80efd60fd6f9" name="wh3_main_combi_province_mountains_of_hel">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="17ffb5ee6fa1d97" name="wh3_main_combi_province_mountains_of_mourn">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="11e5cee327009f9" name="wh3_main_combi_province_mountains_of_naglfari">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1d69c997e79fdf8" name="wh3_main_combi_province_mouth_of_ruin">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="194e23557f07fba" name="wh3_main_combi_province_nagarythe">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f92acf8890fa06" name="wh3_main_combi_province_nongchang_basin">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1eff0ccf02ae6c2" name="wh3_main_combi_province_nordland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f56439fd29b4e1" name="wh3_main_combi_province_northern_grey_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="192d84db5aef428" name="wh3_main_combi_province_northern_sylvania">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="156e6eeb5c5f9d7" name="wh3_main_combi_province_northern_wastes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13db4c01b82c3b6" name="wh3_main_combi_province_northern_worlds_edge_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="19b3c5d621c2b80" name="wh3_main_combi_province_northern_yvresse">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="12cb235365a1cb7" name="wh3_main_combi_province_obsidian_peaks">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1e275f42575541d" name="wh3_main_combi_province_ostermark">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ed6e08fc3662b8" name="wh3_main_combi_province_ostland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f607a038036b56" name="wh3_main_combi_province_path_to_the_east">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="12d3d05ee101e7f" name="wh3_main_combi_province_peak_pass">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="16573af414b6d23" name="wh3_main_combi_province_phoenix_gate">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1fa77f15bf2ac0a" name="wh3_main_combi_province_pirates_current">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f6c7941acd2314" name="wh3_main_combi_province_plain_of_illusions">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="11e109cddd5d969" name="wh3_main_combi_province_plains_of_xen">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1838315100823f9" name="wh3_main_combi_province_red_desert">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="16f23d9def87ffe" name="wh3_main_combi_province_reikland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="11701c38deb3a6c" name="wh3_main_combi_province_rib_peaks">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="144e542d53aebd9" name="wh3_main_combi_province_river_brienne">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="14a35faeee50591" name="wh3_main_combi_province_river_lynsk">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1cec2632b8ffd4e" name="wh3_main_combi_province_river_qurveza">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ac3e23ef4ade6e" name="wh3_main_combi_province_river_urskoy">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1d4f668d4655541" name="wh3_main_combi_province_saphery">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="14f38d48e4a2958" name="wh3_main_combi_province_scorpion_coast">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a40dbd6e9e3e1f" name="wh3_main_combi_province_serpent_estuary">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="113bbc4f14cd753" name="wh3_main_combi_province_shifting_sands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13e40ab98b4c190" name="wh3_main_combi_province_solland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="19f823a2a42ddc7" name="wh3_main_combi_province_southern_badlands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ca3f1946006bdd" name="wh3_main_combi_province_southern_grey_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="199da31aa2204b9" name="wh3_main_combi_province_southern_jungles">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13e5a98936922db" name="wh3_main_combi_province_southern_oblast">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="19737eaa3b47f1d" name="wh3_main_combi_province_southern_sylvania">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1b051dcf29f8749" name="wh3_main_combi_province_southern_worlds_edge_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f2903167d4947b" name="wh3_main_combi_province_southern_yvresse">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="159d81aee43f779" name="wh3_main_combi_province_southlands_worlds_edge_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1446f3c88c66365" name="wh3_main_combi_province_spine_of_sotek">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="12adabc43b6bc81" name="wh3_main_combi_province_spiteful_peaks">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1fc9b5ab1622ac9" name="wh3_main_combi_province_stirland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1210c605bf39019" name="wh3_main_combi_province_stonesky_foothills">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f7b63a43fbf249" name="wh3_main_combi_province_talabecland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1aac8add6c117af" name="wh3_main_combi_province_talsyn">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="132fbc0475f2a8a" name="wh3_main_combi_province_the_abyssal_glacier">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="14f21db3317cdea" name="wh3_main_combi_province_the_black_flood">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1b9d6e7e6404a08" name="wh3_main_combi_province_the_blasted_wastes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="14e7e3b9271dad6" name="wh3_main_combi_province_the_bleak_coast">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1dce1d467c66d59" name="wh3_main_combi_province_the_blighted_marshes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="19055623925bab7" name="wh3_main_combi_province_the_blood_marshes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13c41e42ad17cf8" name="wh3_main_combi_province_the_broken_lands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ba235ffa1fc457" name="wh3_main_combi_province_the_capes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1ce7418a4e5d1f8" name="wh3_main_combi_province_the_clawed_coast">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1cc702d45c2cae0" name="wh3_main_combi_province_the_cold_mires">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1d26f94fd6a7eb7" name="wh3_main_combi_province_the_cracked_land">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a085bb2ba07927" name="wh3_main_combi_province_the_creeping_jungle">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="145ebf6645459a3" name="wh3_main_combi_province_the_cursed_city">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="11a7b777fcd21ae" name="wh3_main_combi_province_the_daemonium_hills">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="155f07f5950f3a5" name="wh3_main_combi_province_the_desolation_of_azgorh">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1fc66431350001c" name="wh3_main_combi_province_the_dragon_isles">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="18043bb0fc5e3af" name="wh3_main_combi_province_the_eternal_lagoon">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1c1455d0037c903" name="wh3_main_combi_province_the_golden_pass">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1c1bd9984f59cc5" name="wh3_main_combi_province_the_great_canal">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1b6b031617a6d4d" name="wh3_main_combi_province_the_great_ocean">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="18afbe4010be092" name="wh3_main_combi_province_the_gwangee_valley">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="13f042e5f662f70" name="wh3_main_combi_province_the_haunted_forest">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1b9088fe00ce40b" name="wh3_main_combi_province_the_howling_wastes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a5bd3f6359e659" name="wh3_main_combi_province_the_ice_fire_plains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="16b4dd57928fcf4" name="wh3_main_combi_province_the_isthmus_coast">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="109ccdcabaea4f8" name="wh3_main_combi_province_the_jungles_of_the_gods">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="14b34fe466e9aa1" name="wh3_main_combi_province_the_lost_valley">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1fcd82e68840a77" name="wh3_main_combi_province_the_misty_hills">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1d373d339194531" name="wh3_main_combi_province_the_night_forest_road">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="153da1c60ffd9ee" name="wh3_main_combi_province_the_noisome_tumour">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1195c7258218135" name="wh3_main_combi_province_the_plain_of_bones">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="17dc2ce714742b5" name="wh3_main_combi_province_the_plain_of_zharr">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="15b50b0ab776c0f" name="wh3_main_combi_province_the_red_wastes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1efb356436c37ee" name="wh3_main_combi_province_the_road_of_skulls">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="192aadb2fdcaaf4" name="wh3_main_combi_province_the_sacred_pools">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="19c86fea6930b44" name="wh3_main_combi_province_the_shard_lands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="158e593b788493f" name="wh3_main_combi_province_the_silver_road">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="197550592856eff" name="wh3_main_combi_province_the_skull_road">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="104508e91cfc970" name="wh3_main_combi_province_the_southern_wastes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f7f2ae6efef0a2" name="wh3_main_combi_province_the_turtle_isles">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="16c19b35ffc4546" name="wh3_main_combi_province_the_vaults">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="111607fb9e1bf6b" name="wh3_main_combi_province_the_wasteland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="18a0157a55b1913" name="wh3_main_combi_province_the_witchs_wood">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1b0e386bfaca60d" name="wh3_main_combi_province_the_witchwood">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1c69f02ff0072f6" name="wh3_main_combi_province_the_wolf_lands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="19ae25116339f6f" name="wh3_main_combi_province_tilea">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="16fc9521b7674b9" name="wh3_main_combi_province_tiranoc">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1c8772359215a21" name="wh3_main_combi_province_titan_peaks">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="187d0c622105683" name="wh3_main_combi_province_torgovann">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1c7ac40536938a7" name="wh3_main_combi_province_troll_country">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="15bf604f0944899" name="wh3_main_combi_province_trollheim_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="15d676462f15d60" name="wh3_main_combi_province_unicorn_gate">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a6187f283766bc" name="wh3_main_combi_province_vampire_coast">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="11308f0165fbeef" name="wh3_main_combi_province_vanaheim_mountains">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1068af1b4fe588d" name="wh3_main_combi_province_volcanic_islands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1017d5f5e589c63" name="wh3_main_combi_province_warpstone_desert">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="181ee39cbe7f946" name="wh3_main_combi_province_wastelands_of_jinshen">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1fde35dcd91b926" name="wh3_main_combi_province_western_badlands">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="134cb495ffe2396" name="wh3_main_combi_province_western_border_princes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="15b2dadf004fed7" name="wh3_main_combi_province_western_great_bastion">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="190f75ea2bc49bf" name="wh3_main_combi_province_western_jungles">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1acf898f74fa8d3" name="wh3_main_combi_province_winters_teeth_pass">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f883d6515e8f6e" name="wh3_main_combi_province_wissenland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="12dd615e4990347" name="wh3_main_combi_province_wydrioth">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1f4ec0922af4ae1" name="wh3_main_combi_province_yn_edri_eternos">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="17f666d87856450" name="wh3_main_combi_province_zorn_uzkul">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+    </data>
+  </pc>
+  <pc type="QTU::Terrain">
+    <pc type="QTU::TerrainMap">
+      <data type="Height" size="12800x7764" id="1b47a4440f9be49"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="139445f2c8bd223" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="HeightSea" size="12800x7764" id="19d97a9e9793d06"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1259116fd492ee8" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="HeightShroud" size="6400x3882" id="169e628f2f91253"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1146178edbde97a" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="BlendCampaign" size="12800x7764" id="161180c05c647c5"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="10e831c2dd1aeb3" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="ColorOverlay" size="12800x7764" id="15fb2510882d14a"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="19323a307fa360c" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="ColorOverlaySea" size="12800x7764" id="17f30fa8f23ae93"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1edc0bf5deb6ffe" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="CampaignTree" size="3200x1941" id="1a9072735901332"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="15c9a65a2d0afc5" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="CorruptionMask" size="3200x1941" id="1cb6c7ad758e34f"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="145f70dcd051017" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="SnowMask" size="3204x1944" id="1eaa2e5989f833f"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="145aeb996e9dc2b" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="PatchVisibilityMask" size="139x84" id="1f6b95a7cb0acb1"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1127b74aeb7ea18" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="EventAreaMask" size="3200x1941" id="1e506eaa1ef023c"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="120939221dedc84" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+  </pc>
+  <pc type="QTU::ProjectClimateMapFile"/>
+</project>

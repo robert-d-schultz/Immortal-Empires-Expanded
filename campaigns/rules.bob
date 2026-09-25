@@ -1,0 +1,22 @@
+[Terrain]
+	PrefabRoot = art\prefabs\campaign
+	save_final_tile_map = true
+	generate_global_mesh = true
+	TileDatabase = terrain\tiles\campaign\_tile_database
+	HeightPatch = true
+	save_meta_data_map = false
+	export_devastation_pieces = true
+
+[Prop]
+	HeightPatch = true
+
+[Entity]
+	HeightPatch = true
+
+[Mesh]
+	HeightPatch = true
+
+[Texture]
+	<Files> = ..._normal.*
+	CompressionFormat = dxt5n
+	NormalMap = true

@@ -1,0 +1,15 @@
+# Whitelist: only the Immortal Empires Expanded map folders are tracked.
+/*
+!/.gitignore
+!/.gitattributes
+!/battles/
+!/campaigns/
+
+/battles/*
+!/battles/rules.bob
+!/battles/cr_combi_expanded_map/
+
+/campaigns/*
+!/campaigns/rules.bob
+!/campaigns/cr_combi_expanded_map_1/
+!/campaigns/cr_combi_expanded_map_devastate_1/
