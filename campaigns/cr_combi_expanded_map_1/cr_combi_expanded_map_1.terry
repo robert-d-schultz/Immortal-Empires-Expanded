@@ -1,15 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="27" id="107f6fee871c37d">
   <pc type="QTU::ProjectTileMap">
-    <data terrain_setup="terrain/campaigns/cr_combi_expanded_map_1/" world_width="1068.1111" global_lighting="Weather/default_battle_cr_combi_expanded_map_1.environment" devastation_light_environments="devastation_chaos=Weather/et_apocalypse.environment,devastation_nagash=Weather/et_nagash.environment,devastation_skaven=Weather/et_green_moon.environment" ambient_light_environments="" water_plane_material="materials/environment/campaign_sea/cr_combi_expanded_map_1_campaign_water_plane.xml.material" extend_tile_blend_ranges_to_maximum="0"/>
+    <data terrain_setup="terrain/campaigns/cr_combi_expanded_map_1/" world_width="1068.11" global_lighting="Weather/default_battle_cr_combi_expanded_map_1.environment" devastation_light_environments="devastation_chaos=Weather/et_apocalypse.environment,devastation_nagash=Weather/et_nagash.environment,devastation_skaven=Weather/et_green_moon.environment" ambient_light_environments="" water_plane_material="materials/environment/campaign_sea/cr_combi_expanded_map_1_campaign_water_plane.xml.material" extend_tile_blend_ranges_to_maximum="0"/>
   </pc>
   <pc type="QTU::Scene">
-    <data version="41">
-      <entity id="1d95d98caedcbbe" name="_global">
+    <data version="42">
+      <entity id="aaaaaaaaaaaaaaa" name="a_cr_global">
         <ECFileLayer export="true" bmd_export_type=""/>
       </entity>
-      <entity id="134d7bb37cb9255" name="_environments">
+      <entity id="1a0dfe3d6b56861" name="a_cr_misc_islands">
         <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a0dfe2ba78685f" name="a_cr_khosun">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a0dfe41c776862" name="a_cr_nippon">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="bbbbbbbbbbbbbbb" name="a_dave_elithis">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="ccccccccccccccc" name="a_okh_ind">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="ddddddddddddddd" name="a_salty_upper_ironfrost">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="eeeeeeeeeeeeeee" name="a_partypus_eastern_steppes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="eeeeeeeeeeeeeef" name="a_partypus_khuresh">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1a0dfcea694a77c" name="a_partypus_southern_wastes">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="fffffffffffffff" name="a_iee_environments">
+        <ECFileLayer export="false" bmd_export_type=""/>
+      </entity>
+      <entity id="1d95d98caedcbbe" name="_vanilla_sea_and_wasteland">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="134d7bb37cb9255" name="_vanilla_environments">
+        <ECFileLayer export="false" bmd_export_type=""/>
       </entity>
       <entity id="13514fba830e1cf" name="wh3_main_combi_province_albion">
         <ECFileLayer export="true" bmd_export_type=""/>
@@ -661,11 +694,17 @@
       <pc type="QTU::TerrainMapLayer">
         <data id="139445f2c8bd223" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1c831271cfeda5d" name="iee" visible="1" serializable="1" opacity="1"/>
+      </pc>
     </pc>
     <pc type="QTU::TerrainMap">
       <data type="HeightSea" size="12800x7764" id="19d97a9e9793d06"/>
       <pc type="QTU::TerrainMapLayer">
         <data id="1259116fd492ee8" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1d64a4ea4ee0c5c" name="iee" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
@@ -673,11 +712,17 @@
       <pc type="QTU::TerrainMapLayer">
         <data id="1146178edbde97a" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="15c9480b36cc9e1" name="iee" visible="1" serializable="1" opacity="1"/>
+      </pc>
     </pc>
     <pc type="QTU::TerrainMap">
       <data type="BlendCampaign" size="12800x7764" id="161180c05c647c5"/>
       <pc type="QTU::TerrainMapLayer">
         <data id="10e831c2dd1aeb3" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1d3095b7cff99e0" name="iee" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
@@ -685,11 +730,17 @@
       <pc type="QTU::TerrainMapLayer">
         <data id="19323a307fa360c" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1ed4ecef8f9881b" name="iee" visible="1" serializable="1" opacity="1"/>
+      </pc>
     </pc>
     <pc type="QTU::TerrainMap">
       <data type="ColorOverlaySea" size="12800x7764" id="17f30fa8f23ae93"/>
       <pc type="QTU::TerrainMapLayer">
         <data id="1edc0bf5deb6ffe" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1dc5b8fd4842c24" name="iee" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
@@ -697,17 +748,26 @@
       <pc type="QTU::TerrainMapLayer">
         <data id="15c9a65a2d0afc5" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="16721cdbec384ae" name="iee" visible="1" serializable="1" opacity="1"/>
+      </pc>
     </pc>
     <pc type="QTU::TerrainMap">
       <data type="CorruptionMask" size="3200x1941" id="1cb6c7ad758e34f"/>
       <pc type="QTU::TerrainMapLayer">
-        <data id="145f70dcd051017" name="base" visible="1" serializable="1" opacity="1"/>
+        <data id="145f70dcd051017" name="base" visible="0" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="19d2b9a3c79267b" name="iee" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
       <data type="SnowMask" size="3204x1944" id="1eaa2e5989f833f"/>
       <pc type="QTU::TerrainMapLayer">
         <data id="145aeb996e9dc2b" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1e797513e599bab" name="iee" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">

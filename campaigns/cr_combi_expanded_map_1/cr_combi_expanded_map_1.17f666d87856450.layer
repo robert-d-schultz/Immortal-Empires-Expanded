@@ -387,7 +387,7 @@
 			<ECVisibilitySettingsCampaign visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
 			<ECPropHeightPatch apply_height_patch="true" for_camera_height_map_only="false"/>
 			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
-			<ECTransform position="594.49652 -0.18668 568.13971" rotation="0 28.60977 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECTransform position="593.434937 -0.186680004 568.718811" rotation="0 28.6097679 0" scale="0.80731976 1 0.999999762" pivot="0 0 0"/>
 		</entity>
 		<entity id="180ac507041cdfd">
 			<ECPropMesh/>
@@ -406,15 +406,6 @@
 			<ECPropHeightPatch apply_height_patch="true" for_camera_height_map_only="false"/>
 			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
 			<ECTransform position="549.28638 -0.4179 559.73828" rotation="0 -157.64932 0" scale="1 1 1" pivot="0 0 0"/>
-		</entity>
-		<entity id="1f1b52f80dfd8dd">
-			<ECPropMesh/>
-			<ECMesh model_path="RigidModels/campaign/generic_props/mountains/chs/chs_mountain_02.wsmodel" opacity="1"/>
-			<ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
-			<ECVisibilitySettingsCampaign visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
-			<ECPropHeightPatch apply_height_patch="true" for_camera_height_map_only="false"/>
-			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
-			<ECTransform position="601.34009 0.00001 552.05286" rotation="0 -177.99997 0" scale="1 1 1" pivot="0 0 0"/>
 		</entity>
 		<entity id="197392e0451e436">
 			<ECPropMesh/>
@@ -5932,15 +5923,6 @@
 			<ECPropHeightPatch apply_height_patch="true" for_camera_height_map_only="false"/>
 			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
 			<ECTransform position="583.40839 -0.4749 557.67157" rotation="0 -163.55901 0" scale="1 1 1" pivot="0 0 0"/>
-		</entity>
-		<entity id="10060e0c41a40cf">
-			<ECPropMesh/>
-			<ECMesh model_path="rigidmodels/campaign/generic_props/mountains/empire/empire_mountain_08.wsmodel" opacity="1"/>
-			<ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
-			<ECVisibilitySettingsCampaign visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
-			<ECPropHeightPatch apply_height_patch="true" for_camera_height_map_only="false"/>
-			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
-			<ECTransform position="590.07257 0.00001 551.04059" rotation="0 -177.99995 0" scale="1 1 1" pivot="0 0 0"/>
 		</entity>
 		<entity id="1676d326b159ee3">
 			<ECPropMesh/>
