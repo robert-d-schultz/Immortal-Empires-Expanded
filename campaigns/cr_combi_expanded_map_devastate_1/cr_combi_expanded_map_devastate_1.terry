@@ -626,7 +626,13 @@
         <data id="139445f2c8bd223" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
       <pc type="QTU::TerrainMapLayer">
+        <data id="1c831271cfeda5d" name="iee" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
         <data id="1ac84c748b0d743" name="devastation" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1808da2c054f431" name="iee_devastation" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
@@ -635,7 +641,13 @@
         <data id="1259116fd492ee8" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
       <pc type="QTU::TerrainMapLayer">
+        <data id="1d64a4ea4ee0c5c" name="iee" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
         <data id="1552fd5eb02ef0b" name="devastation" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1ea448b152236ec" name="iee_devastation" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
@@ -644,7 +656,13 @@
         <data id="1146178edbde97a" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
       <pc type="QTU::TerrainMapLayer">
+        <data id="15c9480b36cc9e1" name="iee" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
         <data id="197767a411d5931" name="devastation" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1d2e18a4fe650cb" name="iee_devastation" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
@@ -653,7 +671,13 @@
         <data id="10e831c2dd1aeb3" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
       <pc type="QTU::TerrainMapLayer">
+        <data id="1d3095b7cff99e0" name="iee" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
         <data id="1d9c025d9f84004" name="devastation" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="155ea07aecb100d" name="iee_devastation" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
@@ -662,7 +686,13 @@
         <data id="19323a307fa360c" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
       <pc type="QTU::TerrainMapLayer">
+        <data id="1ed4ecef8f9881b" name="iee" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
         <data id="125af8c876b8ed1" name="devastation" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1a530b7622e75e8" name="iee_devastation" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
@@ -671,28 +701,58 @@
         <data id="1edc0bf5deb6ffe" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
       <pc type="QTU::TerrainMapLayer">
+        <data id="1dc5b8fd4842c24" name="iee" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
         <data id="1b4bb06ca77aee4" name="devastation" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1b7dd5cc444606b" name="iee_devastation" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
       <data type="CampaignTree" size="3200x1941" id="139f8de95e44219"/>
       <pc type="QTU::TerrainMapLayer">
-        <data id="15c9a65a2d0afc5" name="base" visible="1" serializable="1" opacity="1"/>
+        <data id="15c9a65a2d0afc5" name="reference base" visible="0" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="16721cdbec384ae" name="reference iee" visible="0" serializable="1" opacity="1"/>
       </pc>
       <pc type="QTU::TerrainMapLayer">
         <data id="1cfd2db2966cd78" name="devastation" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1535575118c3685" name="iee_devastation" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
       <data type="CorruptionMask" size="3200x1941" id="1efe14e384349fe"/>
       <pc type="QTU::TerrainMapLayer">
-        <data id="13a5bc5c7bb7ce0" name="base" visible="1" serializable="1" opacity="1"/>
+        <data id="145f70dcd051017" name="reference base" visible="0" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="19d2b9a3c79267b" name="reference iee" visible="0" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="13a5bc5c7bb7ce0" name="devastation" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1c9a56db02d23a9" name="iee_devastation" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
-      <data type="SnowMask" size="3204x1944" id="14c6af81b55fa49"/>
+      <data type="SnowMask" size="3200x1941" id="14c6af81b55fa49"/>
       <pc type="QTU::TerrainMapLayer">
-        <data id="1b5dc2c7d41ca4e" name="base" visible="1" serializable="1" opacity="1"/>
+        <data id="145aeb996e9dc2b" name="reference base" visible="0" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1e797513e599bab" name="reference iee" visible="0" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="1b5dc2c7d41ca4e" name="devastation" visible="1" serializable="1" opacity="1"/>
+      </pc>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="163ed575586963a" name="iee_devastation" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
@@ -701,7 +761,7 @@
     <pc type="QTU::TerrainMap">
       <data type="EventAreaMask" size="3200x1941" id="1c9da2b1edc48f3"/>
       <pc type="QTU::TerrainMapLayer">
-        <data id="120939221dedc84" name="base" visible="1" serializable="1" opacity="1"/>
+        <data id="1a0e03d4f97c384" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
   </pc>
