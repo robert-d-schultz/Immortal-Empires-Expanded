@@ -1874,39 +1874,6 @@
       <ECTransform position="764.996887 6.00033331 292.383026" rotation="0 178.929718 0" scale="0.625226796 0.625227213 0.625226796" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
     </entity>
-    <entity id="196e397158659d2" name="city_caves_of_fire">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19707dc45755b0b" name="cth_towers">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19707dd48585b0e" name="walls">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19707e8b6e65b46" name="east_side_houses">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19707f012635b55" name="central_tower">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="1970807b8355b68" name="nw_houses">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="1970815a1915b75" name="s_stuff">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="197084522a05c19">
-      <ECPrefab key="skh_city_caves_of_fire" use_culture_mask="true" valid_ids="1"/>
-      <ECTransform position="777.59082 5.27830887 294.666595" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
     <entity id="194b8af570d509f" name="sea_planes">
       <ECLayer export="true" bmd_export_type=""/>
       <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
@@ -7742,55 +7709,6 @@
       <ECDLCMask type="Exclude" mask=""/>
       <ECTransform position="796.470764 5.41181898 267.731354" rotation="14.8654146 156.722519 10.7162666" scale="0.577838242 0.577840745 0.577838302" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
-    <entity id="19c6318dbff7b16" name="nandakshi_city">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c631b1e897b1a" name="indan_quarter">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c637913117b93" name="hosues">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c639945787bba" name="Layer 1">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c639958b67bbb" name="outside_walls">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c631ef8d47b23" name="himaranyi_quarter">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c632634f17b28" name="housees">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c632266b67b25" name="cathay_quarter">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c6328e6437b2d" name="houses">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c854cf8f2bc3e">
-      <ECPrefab key="nandakshi" use_culture_mask="true" valid_ids="1"/>
-      <ECTransform position="795.346741 4.7051568 265.506317" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
-    <entity id="19c6336c6807b3e" name="walls">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c851b7685bb1a" name="Layer 2">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
     </entity>
     <entity id="195018a044a4c37">
       <ECPropMesh/>
@@ -19272,40 +19190,6 @@
       <ECTransform position="732.813721 6.66537571 324.588165" rotation="12.1748447 -27.3030415 168.483841" scale="1.09999907 1.09999955 1.09999931" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
     </entity>
-    <entity id="196d990b6e0d068" name="ref_only_city_himaranya">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="196d9b5f3eed0a8" name="courtyard_base">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="196d9b63487d0a9" name="outer_wall">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="196d9b6d496d0aa" name="inner_wall">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="196d9b8ab3ad0ab" name="entrance">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="196dde4835956fb" name="inner_courtyard">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="196eeb01c4efc25">
-      <ECPrefab key="skh_city_himaranya" use_culture_mask="true" valid_ids="1"/>
-      <ECTransform position="740.848999 4.52046299 327.450104" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
-      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
-    <entity id="197078b1dc21597">
-      <ECPrefab key="scaled_skh_city_himaranya" use_culture_mask="true" valid_ids="1"/>
-      <ECTransform position="740.794189 4.27628422 327.383179" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
     <entity id="196d9a87168d082" name="himaranya_mountains">
       <ECLayer export="true" bmd_export_type=""/>
       <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
@@ -19486,31 +19370,6 @@
       <ECTransform position="737.491028 1.16341734 328.752014" rotation="2.49999928 240.800064 359.500061" scale="0.418999642 0.499000013 0.381999731" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
     </entity>
-    <entity id="198ed03389a1282" name="zalim_ghar">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19925072989483a" name="west_end">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19925103d0a4849" name="city_main">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="199388d6b40dfe6" name="inner_fortress">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="199393f758f6b0f">
-      <ECPrefab key="zalim_ghar" use_culture_mask="true" valid_ids="1"/>
-      <ECTransform position="750.137146 3.816715 307.418213" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
-    <entity id="199388fd8cfdfe8" name="outside_fortress">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
     <entity id="1993908d3ad2f19">
       <ECPropMesh/>
       <ECMesh model_path="rigidmodels/campaign/settlements/ind/ind_monolith_01.wsmodel" opacity="1"/>
@@ -19565,59 +19424,6 @@
       <ECDLCMask type="Exclude" mask=""/>
       <ECTransform position="747.976379 4.65625286 307.921356" rotation="22.5980492 -82.2618484 -28.2204685" scale="0.25 0.25 0.25" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
-    <entity id="19af484c239f192" name="temple_of_shear_khawn">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19af9c5fd671280" name="platforms">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19af9c73b161283" name="temple">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19af9cd73f41287" name="temple_square">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19afaf880fb6918" name="rear_corner">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19b04cac9159e01" name="tiger_barracks">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19b416e5a24e200" name="houses_south">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19b41835f6be996" name="spires_hef_outpost">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19b41b4d359dfcb" name="houses_north">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19b421780229515" name="houses_east">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19b4366d64db4e5">
-      <ECPrefab key="temple_of_shear_khawn" use_culture_mask="true" valid_ids="1"/>
-      <ECTransform position="736.082031 2.38705254 298.481934" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
-    <entity id="19b430c46a0b308" name="desert_gate">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19b43290f67b331" name="missing_bit">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
     </entity>
     <entity id="194ebaecf2f1651" name="ashasani_highlands_north">
       <ECLayer export="true" bmd_export_type=""/>
@@ -24681,17 +24487,6 @@
       <ECTransform position="782.425354 4.32638502 269.276794" rotation="0 49.7513618 0" scale="0.995763719 0.995764375 0.995763719" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
     </entity>
-    <entity id="194a3649ef26300">
-      <ECPropMesh/>
-      <ECMesh model_path="rigidmodels/campaign/generic_props/gen_cliffs_tall/ogr_cliff_tall_outward.wsmodel" opacity="1"/>
-      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
-      <ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
-      <ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
-      <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
-      <ECDLCMask type="Exclude" mask=""/>
-      <ECTransform position="-743.677551 2.66051483 302.284546" rotation="0 -23.7160187 0" scale="0.419999987 0.710061193 0.419999987" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
     <entity id="194994b3df79293">
       <ECPropMesh/>
       <ECMesh model_path="rigidmodels/campaign/generic_props/mountains/ogre/ogr_mountain_prop_large_dragonspine.wsmodel" opacity="1"/>
@@ -24838,17 +24633,6 @@
       <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
       <ECDLCMask type="Exclude" mask=""/>
       <ECTransform position="748.90509 2.97086191 304.533661" rotation="1.36603776e-05 114.108749 6.31672239" scale="0.419999808 0.62773329 0.521165848" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
-    <entity id="1949a464bf84431">
-      <ECPropMesh/>
-      <ECMesh model_path="rigidmodels/campaign/generic_props/gen_cliffs_tall/gen_cliff_tall_outward.wsmodel" opacity="1"/>
-      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
-      <ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
-      <ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
-      <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
-      <ECDLCMask type="Exclude" mask=""/>
-      <ECTransform position="-760.192505 -1.68554401 265.286713" rotation="0 37.2568932 0" scale="0.56247592 1.20161104 0.56247592" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
     </entity>
     <entity id="1949de2993172a4">
@@ -55393,47 +55177,6 @@
       <ECTransform position="691.784851 -0.310772896 217.873611" rotation="0 -35.7125397 0" scale="0.419999838 0.521966279 0.419999838" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
     </entity>
-    <entity id="1979e796b26fd01" name="city">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="197a89bbd159059" name="statue shrines">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="197a89c0d46905a" name="helf_dock">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="197a8a022249060" name="south_side">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="197e169e4955fe9">
-      <ECPrefab key="skh_city_monkey_isles_outpost" use_culture_mask="true" valid_ids="1"/>
-      <ECTransform position="692.769226 0.0715205669 227.886856" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
-    <entity id="197ad56824b5dc0" name="beach">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="197b21087b55e34" name="north_beach">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="197b218e2af5e3b" name="helf_outpost">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="197b24a0dc05e6a" name="hef_garden">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="197b25855de5e70" name="rear_houses">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
     <entity id="19846c36e9b0011">
       <ECPropMesh/>
       <ECMesh model_path="rigidmodels/campaign/generic_props/skull_rocks/dragon_cave_head.rigid_model_v2" opacity="1"/>
@@ -63077,55 +62820,6 @@
       <ECTransform position="751.385864 1.27164912 264.504761" rotation="0 113.999985 0" scale="0.419999987 0.419999987 0.419999987" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
     </entity>
-    <entity id="19c6317954a7b15" name="chandrahara_city">
-      <ECLayer export="false" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19c908a580ae308" name="river_temple">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19caad0405a3a78" name="river_defenses">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19caad794f83a7f" name="castle_decorations">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19d160bdc9c2e35" name="city_bldgs_1">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19d161cf0f62e53" name="city_garden">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19df3257d831fca" name="Layer 4">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19df325a9211fcb" name="port_side_bldgs">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19e360e15848b5d" name="rear_buildings">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19df391d3fe2a58" name="river_temple_second_go">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19e3650d71e8bc2" name="outside_walls">
-      <ECLayer export="true" bmd_export_type=""/>
-      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
-    </entity>
-    <entity id="19e559586187bc3">
-      <ECPrefab key="chandrahara" use_culture_mask="true" valid_ids="1"/>
-      <ECTransform position="743.850281 -0.927859187 266.65332" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
     <entity id="19caad053243a79" name="lake_shrine">
       <ECLayer export="true" bmd_export_type=""/>
       <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
@@ -63226,7 +62920,6 @@
         <to id="195820ece78ae6b"/>
         <to id="195915c307fd8fe"/>
         <to id="195915d41ded8ff"/>
-        <to id="196e397158659d2"/>
       </from>
       <from id="195820ece78ae6b">
         <to id="195959ef0ba7d18"/>
@@ -63397,17 +63090,6 @@
         <to id="1969bf1b903c0a7"/>
         <to id="1969bf1f712c0a8"/>
         <to id="1969bf2f207c0a9"/>
-      </from>
-      <from id="196e397158659d2">
-        <to id="19707dc45755b0b"/>
-        <to id="19707dd48585b0e"/>
-        <to id="19707e8b6e65b46"/>
-        <to id="19707f012635b55"/>
-        <to id="1970807b8355b68"/>
-        <to id="1970815a1915b75"/>
-      </from>
-      <from id="1970815a1915b75">
-        <to id="197084522a05c19"/>
       </from>
       <from id="194b8af570d509f">
         <to id="19499a3fb9f929f"/>
@@ -64020,28 +63702,6 @@
         <to id="19501808edd4c2f"/>
         <to id="195018202544c31"/>
         <to id="1950183d5f04c33"/>
-        <to id="19c6318dbff7b16"/>
-      </from>
-      <from id="19c6318dbff7b16">
-        <to id="19c631b1e897b1a"/>
-        <to id="19c631ef8d47b23"/>
-        <to id="19c632266b67b25"/>
-        <to id="19c6336c6807b3e"/>
-        <to id="19c851b7685bb1a"/>
-      </from>
-      <from id="19c631b1e897b1a">
-        <to id="19c637913117b93"/>
-        <to id="19c639958b67bbb"/>
-      </from>
-      <from id="19c637913117b93">
-        <to id="19c639945787bba"/>
-      </from>
-      <from id="19c631ef8d47b23">
-        <to id="19c632634f17b28"/>
-      </from>
-      <from id="19c632266b67b25">
-        <to id="19c6328e6437b2d"/>
-        <to id="19c854cf8f2bc3e"/>
       </from>
       <from id="1950191367c4c3f">
         <to id="195019100b44c3e"/>
@@ -64883,15 +64543,12 @@
         <to id="1949e4d83ad72cb"/>
         <to id="19668bedd090c38"/>
         <to id="196a1a6af2f29fb"/>
-        <to id="196d990b6e0d068"/>
         <to id="196d9a87168d082"/>
-        <to id="198ed03389a1282"/>
         <to id="1993908d3ad2f19"/>
         <to id="199390962952f1a"/>
         <to id="19939098cda2f1b"/>
         <to id="199390993562f1c"/>
         <to id="1993909a97d2f1d"/>
-        <to id="19af484c239f192"/>
       </from>
       <from id="19582103de4ae6c">
         <to id="19595a450c87d27"/>
@@ -65293,15 +64950,6 @@
         <to id="1d906dadc0e07fa"/>
         <to id="1aba4c490ca0cff"/>
       </from>
-      <from id="196d990b6e0d068">
-        <to id="196d9b5f3eed0a8"/>
-        <to id="196d9b63487d0a9"/>
-        <to id="196d9b6d496d0aa"/>
-        <to id="196d9b8ab3ad0ab"/>
-        <to id="196dde4835956fb"/>
-        <to id="196eeb01c4efc25"/>
-        <to id="197078b1dc21597"/>
-      </from>
       <from id="196d9a87168d082">
         <to id="196d9a5dfc6d07d"/>
         <to id="196d9a7b3f3d080"/>
@@ -65319,31 +64967,6 @@
         <to id="196da2d0a47f8d1"/>
         <to id="196da2cb654f8d0"/>
         <to id="196debb916175f5"/>
-      </from>
-      <from id="198ed03389a1282">
-        <to id="19925072989483a"/>
-        <to id="19925103d0a4849"/>
-        <to id="199388d6b40dfe6"/>
-        <to id="199388fd8cfdfe8"/>
-      </from>
-      <from id="199388d6b40dfe6">
-        <to id="199393f758f6b0f"/>
-      </from>
-      <from id="19af484c239f192">
-        <to id="19af9c5fd671280"/>
-        <to id="19af9c73b161283"/>
-        <to id="19af9cd73f41287"/>
-        <to id="19afaf880fb6918"/>
-        <to id="19b04cac9159e01"/>
-        <to id="19b416e5a24e200"/>
-        <to id="19b41835f6be996"/>
-        <to id="19b41b4d359dfcb"/>
-        <to id="19b421780229515"/>
-        <to id="19b430c46a0b308"/>
-        <to id="19b43290f67b331"/>
-      </from>
-      <from id="19b421780229515">
-        <to id="19b4366d64db4e5"/>
       </from>
       <from id="194ebaecf2f1651">
         <to id="1950a905f62e36b"/>
@@ -65850,7 +65473,6 @@
         <to id="1949e2df7f372bd"/>
         <to id="194a9064f6212a4"/>
         <to id="1949dd375ea729a"/>
-        <to id="194a3649ef26300"/>
         <to id="194994b3df79293"/>
         <to id="1949a423bd44424"/>
         <to id="194a2a064c12c69"/>
@@ -65865,7 +65487,6 @@
         <to id="194a9cae437b1ca"/>
         <to id="1949e3f7f9672c1"/>
         <to id="194a280a9a12c59"/>
-        <to id="1949a464bf84431"/>
         <to id="1949de2993172a4"/>
         <to id="1949e0db8ea72b3"/>
         <to id="1949a3edb46441a"/>
@@ -68699,7 +68320,6 @@
         <to id="19548b1c99d6a3e"/>
         <to id="19548b24f5d6a3f"/>
         <to id="19548b2eee96a41"/>
-        <to id="1979e796b26fd01"/>
         <to id="19846c36e9b0011"/>
         <to id="19846c4192e0012"/>
         <to id="19846c53a930014"/>
@@ -68732,19 +68352,6 @@
         <to id="1955785a0652e5d"/>
         <to id="1955787acd92e5f"/>
         <to id="19576d46fdec65a"/>
-      </from>
-      <from id="1979e796b26fd01">
-        <to id="197a89bbd159059"/>
-        <to id="197a89c0d46905a"/>
-        <to id="197a8a022249060"/>
-        <to id="197ad56824b5dc0"/>
-        <to id="197b21087b55e34"/>
-        <to id="197b218e2af5e3b"/>
-        <to id="197b24a0dc05e6a"/>
-        <to id="197b25855de5e70"/>
-      </from>
-      <from id="197a8a022249060">
-        <to id="197e169e4955fe9"/>
       </from>
       <from id="1956c9d65ccfb07">
         <to id="1956c9d8f8dfb08"/>
@@ -69550,7 +69157,6 @@
         <to id="194aa0a7e81b1e5"/>
         <to id="1949de5ead372a6"/>
         <to id="199380e805d8014"/>
-        <to id="19c6317954a7b15"/>
         <to id="19caad053243a79"/>
       </from>
       <from id="199380e805d8014">
@@ -69565,25 +69171,6 @@
       </from>
       <from id="1993ac1bbf9636d">
         <to id="1999267013c0c53"/>
-      </from>
-      <from id="19c6317954a7b15">
-        <to id="19c908a580ae308"/>
-        <to id="19caad0405a3a78"/>
-        <to id="19caad794f83a7f"/>
-        <to id="19d160bdc9c2e35"/>
-        <to id="19df391d3fe2a58"/>
-        <to id="19e3650d71e8bc2"/>
-      </from>
-      <from id="19d160bdc9c2e35">
-        <to id="19d161cf0f62e53"/>
-        <to id="19df325a9211fcb"/>
-        <to id="19e360e15848b5d"/>
-      </from>
-      <from id="19d161cf0f62e53">
-        <to id="19df3257d831fca"/>
-      </from>
-      <from id="19e3650d71e8bc2">
-        <to id="19e559586187bc3"/>
       </from>
       <from id="19caad053243a79">
         <to id="19caacf13c33a77"/>
