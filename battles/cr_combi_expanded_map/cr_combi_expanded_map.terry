@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="27" id="163369cf3e8f7bf">
+<project version="27" id="180d2713c22c637">
   <pc type="QTU::ProjectTileMap">
-    <data terrain_setup="terrain/battles/cr_combi_expanded_map/" world_width="1068.1111" global_lighting="" devastation_light_environments="" ambient_light_environments="" water_plane_material="" extend_tile_blend_ranges_to_maximum="0"/>
+    <data terrain_setup="terrain/battles/cr_combi_expanded_map/" world_width="1001.38" global_lighting="" ambient_light_environments="" water_plane_material="" extend_tile_blend_ranges_to_maximum="0"/>
   </pc>
   <pc type="QTU::Scene">
     <data version="41"/>
   </pc>
   <pc type="QTU::Terrain">
     <pc type="QTU::TerrainMap">
-      <data type="Height" size="2x2" id="191cd4e2b6a4427"/>
+      <data type="Height" size="4x4" id="180d2713c94c632"/>
       <pc type="QTU::TerrainMapLayer">
-        <data id="15cf14226201b16" name="base" visible="1" serializable="1" opacity="1"/>
+        <data id="180d2713c94c633" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
     <pc type="QTU::TerrainMap">
-      <data type="HeightSea" size="2x2" id="14ef58061efeac8"/>
+      <data type="HeightSea" size="4x4" id="180d2713c95c634"/>
       <pc type="QTU::TerrainMapLayer">
-        <data id="16bb9124c9c5245" name="base" visible="1" serializable="1" opacity="1"/>
+        <data id="180d2713c95c635" name="base" visible="1" serializable="1" opacity="1"/>
       </pc>
     </pc>
   </pc>
