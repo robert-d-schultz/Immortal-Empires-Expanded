@@ -2685,13 +2685,16 @@
 			<ECTransform position="359.71967 -0.7397 593.18573" rotation="0 -99.99993 0" scale="0.42 0.42 0.42" pivot="0 0 0"/>
 		</entity>
 		<entity id="19ba2654c066a7f">
-			<ECPropMesh/>
-			<ECMesh model_path="terrain/campaigns/cr_combi_expanded_map_1/models/river_17e595942d869f4.wsmodel" opacity="1"/>
-			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECRiver/>
 			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
-			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
-			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
 			<ECTransform position="367.88699 0.08817 594.63623" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.641949,0.026208,-0.01897" tangent_out="-0.641949,-0.026208,0.01897" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.922791,-0.056892,0.133972" tangent_in="0.638805,0.011687,-0.070267" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
 		</entity>
 		<entity id="13aba722b14bca2">
 			<ECDecal model_path="rigidmodels/campaign/decals/def/def_lavacrack_01.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" fade_start="0.875" mirror_x="false" mirror_z="false" angle_threshold="90" layer="0"/>

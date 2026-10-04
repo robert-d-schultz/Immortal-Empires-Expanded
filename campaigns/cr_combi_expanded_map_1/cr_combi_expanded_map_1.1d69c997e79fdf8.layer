@@ -3,13 +3,26 @@
 <layer version="41">
 	<entities>
 		<entity id="15ad5af600c3d19">
-			<ECPropMesh/>
-			<ECMesh model_path="terrain/campaigns/cr_combi_expanded_map_1/models/river_1720867aaa052db.wsmodel" opacity="1"/>
-			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECRiver/>
 			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
-			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
-			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
 			<ECTransform position="650.8382 0.6242 359.98444" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="-1.062757,-0.000264,0.931504" tangent_out="1.062757,0.000264,-0.931504" width="3" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="3.362337,0.169061,-2.576913" tangent_in="-1.158187,-0.070833,0.806684" tangent_out="0.573711,0.035087,-0.399593" width="1.869152" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="5.128784,0.267648,-3.708461" tangent_in="-0.611831,-0.027016,0.339092" tangent_out="0.235454,0.010397,-0.130495" width="1.279328" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="5.863753,0.288085,-4.043995" tangent_in="-0.259406,-0.003759,0.072593" tangent_out="0.74185,0.010749,-0.207602" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="8.154869,0.592622,-4.050612" tangent_in="-0.761548,-0.116622,-0.000748" tangent_out="0.926333,0.141857,0.00091" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="10.902968,0.860812,-4.579746" tangent_in="-0.867232,-0.027487,0.354076" tangent_out="0.902852,0.028616,-0.368619" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="13.456422,0.973337,-6.005849" tangent_in="-0.795243,-0.099779,0.556302" tangent_out="0.677119,0.084958,-0.47367" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="15.465869,1.287623,-7.445986" tangent_in="-0.721642,-0.058456,0.407292" tangent_out="0.850909,0.068927,-0.48025" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="18.151125,1.380603,-8.635812" tangent_in="-0.92855,-0.054334,0.307049" tangent_out="1.651361,0.096629,-0.546065" width="1.000001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="23.37193,1.576624,-8.760109" tangent_in="-1.676445,-0.133487,-0.454128" tangent_out="1.177095,0.093726,0.318861" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="26.800732,1.921556,-7.499785" tangent_in="-1.112951,-0.129637,-0.490453" tangent_out="0.603152,0.070256,0.265796" width="0.999999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="28.599307,2.137304,-6.679443" tangent_in="-0.635213,-0.053606,-0.181675" tangent_out="0,0,0" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
 		</entity>
 		<entity id="1284688c4a1b7be">
 			<ECPropMesh/>
@@ -1299,13 +1312,18 @@
 			<ECTransform position="632.9342 0.6062 338.62631" rotation="-0.00001 -156.97503 -0.00001" scale="0.6 0.6 0.6" pivot="0 0 0"/>
 		</entity>
 		<entity id="1ad57c7b33cd98b">
-			<ECPropMesh/>
-			<ECMesh model_path="terrain/campaigns/cr_combi_expanded_map_1/models/river_172086ed23252df.wsmodel" opacity="1"/>
-			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECRiver/>
 			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
-			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
-			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
 			<ECTransform position="650.17206 0.54706 344.60025" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="-0.013067,-0.001428,0.83861" tangent_out="0.013067,0.001428,-0.83861" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.852665,-0.004398,-2.367256" tangent_in="0.422532,0.006615,0.724474" tangent_out="-0.141048,-0.002208,-0.241841" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.317731,-0.083214,-3.062223" tangent_in="0.163654,0.040203,0.223578" tangent_out="-0.818493,-0.201068,-1.118194" width="1.096996" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-4.240234,-0.634161,-6.029022" tangent_in="1.216726,0.00121,0.693033" tangent_out="0,0,0" width="1.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
 		</entity>
 		<entity id="1674fceab231115">
 			<ECPropMesh/>
@@ -1407,13 +1425,20 @@
 			<ECTransform position="649.47552 0.6062 341.24133" rotation="0 120.99999 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
 		</entity>
 		<entity id="1c89b3fc732ffc3">
-			<ECPropMesh/>
-			<ECMesh model_path="terrain/campaigns/cr_combi_expanded_map_1/models/river_172086f20bb52e0.wsmodel" opacity="1"/>
-			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECRiver/>
 			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
-			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
-			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
 			<ECTransform position="652.85327 0.52456 341.56131" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.144806,0.001193,0.840033" tangent_out="-0.144806,-0.001193,-0.840033" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.864431,-0.001932,-2.406739" tangent_in="0.494996,0.001103,0.693977" tangent_out="-0.333882,-0.000744,-0.468097" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.879035,-0.000967,-3.801697" tangent_in="0.09726,0.012356,0.566551" tangent_out="-0.068526,-0.008706,-0.399174" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.724495,-0.109341,-5.002271" tangent_in="-0.080602,0.038306,0.395155" tangent_out="0.049654,-0.023598,-0.243434" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.699742,-0.177578,-5.747437" tangent_in="0.043138,0.071576,0.235156" tangent_out="-0.066103,-0.109679,-0.36034" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.075256,-0.602702,-6.744659" tangent_in="0.144748,-0.048395,0.350642" tangent_out="0,0,0" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
 		</entity>
 		<entity id="13aaf0198787ae6">
 			<ECPropMesh/>
