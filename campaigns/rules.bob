@@ -3,18 +3,11 @@
 	save_final_tile_map = true
 	generate_global_mesh = true
 	TileDatabase = terrain\tiles\campaign\_tile_database
-	HeightPatch = true
 	save_meta_data_map = false
 	export_devastation_pieces = true
-
-[Prop]
-	HeightPatch = true
-
-[Entity]
-	HeightPatch = true
-
-[Mesh]
-	HeightPatch = true
+	cam_hmap_resolution_scale = 0.25
+	cam_hmap_samples_per_wu = 8
+	cam_hmap_apply_blur = false
 
 [Texture]
 	<Files> = ..._normal.*

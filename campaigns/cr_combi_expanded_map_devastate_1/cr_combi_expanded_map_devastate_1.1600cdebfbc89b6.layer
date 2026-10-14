@@ -31850,6 +31850,30 @@
 		<entity id="1085ae9937f66a5" name="sound">
 			<ECLayer export="true" bmd_export_type=""/>
 		</entity>
+		<entity id="1bc2f3dba2fd148">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="487.92413 4.72602 183.25322" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="-0.364372,0.116967,-0.060452" tangent_out="0.364372,-0.116967,0.060452" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="1.038902,-0.441712,-0.276578" tangent_in="-0.211653,0.132724,0.296125" tangent_out="0.137518,-0.086235,-0.192401" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="1.288672,-0.646689,-0.95914" tangent_in="-0.209182,0.099572,0.09846" tangent_out="0.104818,-0.049894,-0.049337" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="1.643234,-0.778405,-0.94767" tangent_in="-0.118576,0.040233,-0.015218" tangent_out="0.357811,-0.121407,0.045922" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="2.715364,-1.143525,-1.09299" tangent_in="-0.184772,0.153643,0.295179" tangent_out="0.218679,-0.181838,-0.349346" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="3.147588,-1.621322,-2.28095" tangent_in="-0.379624,0.148526,0.191713" tangent_out="0.541275,-0.211771,-0.273347" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="5.049818,-1.927984,-2.261404" tangent_in="-0.632982,0.064645,0.087746" tangent_out="0.398811,-0.040729,-0.055284" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="6.217324,-2.047959,-2.571922" tangent_in="-0.361632,0.026846,0.179629" tangent_out="0.291449,-0.021636,-0.144768" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="7.028816,-2.074209,-3.117917" tangent_in="-0.279724,0.022336,0.166206" tangent_out="0.283959,-0.022674,-0.168722" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="7.91764,-2.087278,-3.561026" tangent_in="-0.269612,0.009789,0.191906" tangent_out="0.419716,-0.015239,-0.298748" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="8.63555,-2.153604,-4.928871" tangent_in="-0.369018,0.083328,0.350037" tangent_out="0.2787,-0.062933,-0.264364" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="9.708446,-2.358977,-5.341694" tangent_in="-0.271429,0.082533,0.266529" tangent_out="0.187489,-0.057009,-0.184105" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="10.044647,-2.495279,-6.062156" tangent_in="-0.093294,0.035586,0.249654" tangent_out="0.111275,-0.042444,-0.297769" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="10.544129,-2.566118,-6.881394" tangent_in="-0.222743,-0.009776,0.230522" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
 	</entities>
 	<associations>
 		<Logical>

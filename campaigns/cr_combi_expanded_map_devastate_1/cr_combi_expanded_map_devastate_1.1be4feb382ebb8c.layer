@@ -49,6 +49,513 @@
 		<entity id="19f6a635cc16fa6" name="sound">
 			<ECLayer export="true" bmd_export_type=""/>
 		</entity>
+		<entity id="12b05da342a33f1">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="418.33987 2.39086 77.82878" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign/cwb_campaign_river_lava.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.308832,-0.025301,-0.008292" tangent_out="-0.308832,0.025301,0.008292" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.809732,-0.079596,0.450302" tangent_in="0.143982,0.078567,-0.263025" tangent_out="-0.208252,-0.113638,0.380433" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.790175,-0.424617,1.750182" tangent_in="0.05049,0.052499,-0.442388" tangent_out="-0.034175,-0.035534,0.299433" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.366294,-0.681698,2.406547" tangent_in="0.12027,0.084928,-0.265355" tangent_out="-0.101961,-0.071999,0.224959" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.473378,-0.849479,3.152241" tangent_in="0.100371,0.04178,-0.233166" tangent_out="-0.098358,-0.040942,0.228492" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.032318,-0.917523,3.657204" tangent_in="0.216363,0.026084,-0.126751" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="165f8f086048165">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="389.98785 0.30535 226.50577" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_blood_river.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.208703,0.016009,-0.245562" tangent_out="-0.208703,-0.016009,0.245562" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.849472,0.023233,0.463554" tangent_in="0.321005,-0.023246,-0.023002" tangent_out="-0.393955,0.028529,0.028229" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.012795,0.148773,0.258067" tangent_in="0.394373,-0.034896,0.007995" tangent_out="-0.190997,0.016901,-0.003872" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.561801,0.185858,0.426121" tangent_in="0.171931,-0.010066,-0.084374" tangent_out="-0.650076,0.038058,0.319019" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-4.145503,0.202962,1.917423" tangent_in="0.290675,0.033487,-0.663481" tangent_out="-0.18271,-0.021049,0.417045" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-4.560389,0.105485,3.216706" tangent_in="0.323934,0.003653,-0.320633" tangent_out="-0.416513,-0.004697,0.412268" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-6.149498,0.228756,3.95884" tangent_in="0.311808,0.018471,-0.495887" tangent_out="-0.108399,-0.006421,0.172394" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-6.32507,0.177006,4.542018" tangent_in="0.044632,0.015195,-0.198213" tangent_out="-0.070436,-0.02398,0.31281" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-6.474189,0.086345,5.490714" tangent_in="-0.003325,0.030665,-0.320055" tangent_out="0.00277,-0.025549,0.266654" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-6.513925,0.016485,6.290353" tangent_in="0.082076,0.009572,-0.254827" tangent_out="-0.1018,-0.011872,0.316066" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-6.944165,-0.00706,7.189218" tangent_in="0.074309,0.007035,-0.323776" tangent_out="-0.073675,-0.006975,0.321012" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-7.022389,-0.032568,8.174083" tangent_in="0.10905,0.000062,-0.31086" tangent_out="-0.153207,-0.000087,0.436737" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-7.725082,-0.026942,9.371621" tangent_in="0.124052,-0.005768,-0.445858" tangent_out="-0.089943,0.004182,0.323265" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-7.850816,-0.014373,10.37037" tangent_in="0.06034,-0.005033,-0.330063" tangent_out="-0.058412,0.004872,0.319513" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-8.169078,0.002928,11.291309" tangent_in="0.078691,-0.006407,-0.315105" tangent_out="-0.138123,0.011246,0.55309" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-8.794226,0.010898,12.883522" tangent_in="0.486269,-0.003466,-0.29773" tangent_out="-0.281462,0.002006,0.172332" width="0.499999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-9.656199,0.016919,13.370635" tangent_in="0.232981,0.005786,-0.233688" tangent_out="-0.234565,-0.005826,0.235277" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-10.213169,-0.00817,14.196979" tangent_in="0.10748,0.008773,-0.314295" tangent_out="-0.085269,-0.00696,0.249346" width="0.499999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-10.460365,-0.028496,14.947923" tangent_in="0.160192,0.005149,-0.209297" tangent_out="-0.359776,-0.011565,0.470062" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-11.906362,-0.063174,15.97878" tangent_in="0.372739,0.015593,-0.459732" tangent_out="-0.414827,-0.017354,0.511643" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-12.363352,-0.090028,17.90177" tangent_in="0.095973,0.000766,-0.651882" tangent_out="-0.057337,-0.000457,0.389456" width="0.499999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-12.834057,-0.09879,18.984837" tangent_in="0.217595,-0.00021,-0.328049" tangent_out="-0.278948,0.000269,0.420546" width="0.499999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-14.012854,-0.110833,19.93475" tangent_in="0.502788,0.005188,-0.042993" tangent_out="-0.818142,-0.008441,0.069958" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-16.473177,-0.115938,20.059945" tangent_in="0.41306,0.000846,-0.709719" tangent_out="-0.235031,-0.000482,0.40383" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-16.706377,-0.110487,21.442135" tangent_in="-0.105608,-0.002431,-0.455148" tangent_out="0.181555,0.004179,0.782467" width="0.499999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-15.917157,-0.090255,23.718939" tangent_in="-0.144583,-0.003364,-0.790139" tangent_out="0.126517,0.002944,0.691411" width="0.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-16.438719,-0.069513,25.762007" tangent_in="0.367256,-0.002007,-0.59932" tangent_out="0,0,0" width="0.499999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="1f8d832b13bc9c1">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="498.36801 3.48036 580.36456" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="-0.000001,0,0" tangent_in="-0.07437,0.010888,-0.174813" tangent_out="0.07437,-0.010888,0.174813" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.051031,-0.043381,0.566919" tangent_in="0.114348,0.011476,-0.151664" tangent_out="-0.119102,-0.011954,0.157969" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.563476,-0.076404,0.866671" tangent_in="0.168901,0.028518,-0.099707" tangent_out="-0.226573,-0.038256,0.133753" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.191458,-0.283211,1.31284" tangent_in="0.226086,0.071243,-0.120407" tangent_out="-0.172397,-0.054325,0.091814" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.734107,-0.439776,1.538525" tangent_in="0.156244,0.056854,-0.116005" tangent_out="-0.244763,-0.089064,0.181727" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.912953,-0.678016,2.44354" tangent_in="0.109176,0.076771,-0.28819" tangent_out="-0.089918,-0.063229,0.237356" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.475966,-0.855767,2.960465" tangent_in="0.250801,0.048074,-0.056648" tangent_out="-0.306799,-0.058808,0.069296" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-3.347966,-0.931335,2.566284" tangent_in="0.31287,0.055992,0.036918" tangent_out="-0.256384,-0.045883,-0.030253" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-4.100743,-1.114156,2.702962" tangent_in="0.258356,0.040352,0.019422" tangent_out="-0.331274,-0.051741,-0.024903" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-5.103478,-1.222624,2.692125" tangent_in="0.317393,0.041208,-0.102974" tangent_out="-0.34736,-0.045099,0.112697" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-5.514884,-1.414697,3.698305" tangent_in="0.236972,0.066909,-0.273425" tangent_out="-0.254548,-0.071872,0.293706" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-6.524301,-1.588425,4.295722" tangent_in="0.356038,0.042472,-0.166304" tangent_out="-0.294434,-0.035123,0.137529" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-7.399855,-1.672851,4.729114" tangent_in="0.324882,0.035885,0.001682" tangent_out="-0.253533,-0.028004,-0.001313" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-8.085853,-1.74813,4.398472" tangent_in="0.111919,-0.002821,0.229197" tangent_out="-0.085781,0.002162,-0.175669" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-8.074221,-1.694619,3.814514" tangent_in="-0.023879,-0.019345,0.193076" tangent_out="0.033827,0.027405,-0.27352" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-7.986354,-1.634262,2.990492" tangent_in="0.004127,-0.015901,0.276475" tangent_out="-0.004574,0.017622,-0.306407" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-8.573205,-1.61085,2.281263" tangent_in="0.301798,0.02377,0.05069" tangent_out="-0.315493,-0.024849,-0.05299" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-9.369227,-1.780183,2.795389" tangent_in="0.305704,0.047088,-0.085375" tangent_out="-0.187923,-0.028946,0.052482" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-9.939418,-1.818445,2.641817" tangent_in="0.186141,0.00791,0.064778" tangent_out="-0.185132,-0.007867,-0.064427" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-10.52619,-1.862805,2.631283" tangent_in="0.181048,0.014204,-0.074207" tangent_out="-0.228468,-0.017924,0.093644" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-10.782391,-1.854644,3.328338" tangent_in="0.063918,-0.002815,-0.239154" tangent_out="-0.051379,0.002263,0.19224" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-11.116341,-1.884935,3.822271" tangent_in="0.16226,0.016229,-0.114059" tangent_out="-0.300027,-0.030009,0.210901" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-12.201719,-1.941563,3.629112" tangent_in="0.352921,0.02561,-0.100928" tangent_out="-0.25776,-0.018705,0.073714" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-12.892043,-1.997168,4.04188" tangent_in="0.212901,0.01719,-0.1631" tangent_out="-0.152946,-0.012349,0.11717" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-13.392479,-2.021471,4.332461" tangent_in="0.192912,-0.004771,-0.006007" tangent_out="-0.196437,0.004858,0.006117" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-13.934348,-1.975213,4.104262" tangent_in="0.166982,-0.015035,0.102662" tangent_out="-0.447409,0.040285,-0.275071" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-15.282773,-1.997989,3.280619" tangent_in="0.525498,0.025667,0.025579" tangent_out="-0.463705,-0.022649,-0.022571" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-16.555791,-2.027242,3.848924" tangent_in="0.43484,0.007356,-0.164026" tangent_out="-0.529971,-0.008965,0.199911" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-18.139416,-2.016569,3.232291" tangent_in="0.474731,0.012978,0.308829" tangent_out="-0.343947,-0.009403,-0.22375" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-19.223756,-2.063367,2.650838" tangent_in="0.359796,0.003578,0.197448" tangent_out="-0.273914,-0.002724,-0.150318" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-20.045102,-1.99303,2.204599" tangent_in="0.312282,-0.007733,0.00721" tangent_out="-0.270701,0.006703,-0.00625" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-20.840598,-2.00378,2.36994" tangent_in="0.239389,0.016773,-0.125597" tangent_out="-0.17388,-0.012183,0.091228" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-21.320184,-2.059753,2.709369" tangent_in="0.188213,0.016065,-0.054982" tangent_out="-0.245151,-0.020925,0.071616" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-22.068229,-2.091845,2.535038" tangent_in="0.162996,0.006266,0.197633" tangent_out="-0.169377,-0.006511,-0.20537" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-22.164691,-2.095926,1.742037" tangent_in="0.057336,-0.006908,0.259948" tangent_out="-0.053613,0.00646,-0.243068" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-22.667144,-2.035002,1.192663" tangent_in="0.248802,0.002202,0.009521" tangent_out="-0.317596,-0.002811,-0.012154" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-23.495877,-2.13443,1.653664" tangent_in="0.314397,0.004958,0.0464" tangent_out="-0.197376,-0.003113,-0.029129" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-24.052857,-2.115838,1.435108" tangent_in="0.199385,-0.006865,0.003714" tangent_out="-0.196921,0.006781,-0.003669" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-24.615336,-2.104355,1.616826" tangent_in="0.196671,0.003807,-0.011977" tangent_out="-0.202012,-0.00391,0.012303" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-25.200951,-2.137528,1.459552" tangent_in="0.198227,0.012622,0.03902" tangent_out="-0.187746,-0.011955,-0.036957" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-25.766564,-2.17229,1.557978" tangent_in="0.164004,0.005867,-0.099124" tangent_out="-0.275585,-0.009858,0.166563" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-26.193148,-2.105113,2.422616" tangent_in="0.182641,-0.014244,-0.265003" tangent_out="-0.171077,0.013342,0.248224" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-27.033795,-2.117025,2.758351" tangent_in="0.279662,-0.001375,0.113348" tangent_out="-0.373139,0.001835,-0.151235" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-28.028197,-2.137007,2.072978" tangent_in="0.352027,-0.008897,0.195206" tangent_out="-0.173968,0.004397,-0.096468" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-28.566117,-2.101398,1.816684" tangent_in="0.135277,-0.003122,0.145879" tangent_out="-0.180057,0.004156,-0.194169" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-28.715871,-2.148703,1.037843" tangent_in="0.076708,0.022459,0.25249" tangent_out="-0.074241,-0.021736,-0.24437" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-29.282935,-2.221247,0.523565" tangent_in="0.249506,0.014825,0.056813" tangent_out="-0.308158,-0.01831,-0.070168" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-30.14663,-2.1938,0.917598" tangent_in="0.31642,0.006781,-0.007269" tangent_out="-0.263118,-0.005638,0.006045" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-30.876443,-2.246379,0.620435" tangent_in="0.263194,0.001295,0.005173" tangent_out="-0.266426,-0.001311,-0.005236" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-31.589257,-2.191308,0.978166" tangent_in="0.1787,-0.016154,-0.197021" tangent_out="-0.203414,0.018388,0.22427" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-31.820135,-2.212435,1.858143" tangent_in="0.234855,0.028604,-0.189835" tangent_out="-0.148595,-0.018098,0.12011" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-32.380845,-2.233289,1.987296" tangent_in="0.189381,-0.009165,0.029758" tangent_out="-0.251902,0.01219,-0.039583" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-33.145329,-2.187554,1.985928" tangent_in="0.18076,-0.006738,-0.18014" tangent_out="-0.321043,0.011966,0.319944" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-33.841393,-2.204755,3.154425" tangent_in="0.389149,-0.022208,-0.231617" tangent_out="-0.114517,0.006535,0.068159" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-34.221612,-2.183113,3.277659" tangent_in="0.132868,-0.006052,0.010572" tangent_out="-0.259937,0.011839,-0.020682" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-34.891011,-2.164154,2.871752" tangent_in="0.249392,-0.005381,0.076874" tangent_out="-0.50672,0.010933,-0.156195" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-36.4703,-2.185573,3.063912" tangent_in="0.472153,0.054606,-0.235312" tangent_out="-0.343147,-0.039686,0.171018" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-37.375657,-2.186854,3.783267" tangent_in="0.145479,-0.003848,-0.356921" tangent_out="-0.152012,0.004021,0.37295" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-37.36398,-2.217903,4.99109" tangent_in="0.032082,0.010323,-0.401347" tangent_out="-0.027953,-0.008994,0.349692" width="0.799998" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-38.241879,-2.243883,5.571554" tangent_in="0.342246,0.022198,0.074308" tangent_out="-0.197737,-0.012825,-0.042932" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-38.786958,-2.276801,5.303647" tangent_in="0.169117,-0.000931,0.111831" tangent_out="-0.210864,0.001161,-0.139436" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-39.427708,-2.229132,4.900742" tangent_in="0.250881,-0.008726,-0.029834" tangent_out="-0.265412,0.009231,0.031562" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-40.168927,-2.232786,5.207831" tangent_in="0.266532,0.02,0.009247" tangent_out="-0.194799,-0.014618,-0.006759" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-40.719945,-2.295135,5.017187" tangent_in="0.194835,0.008409,0.013204" tangent_out="-0.12359,-0.005334,-0.008376" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-41.080537,-2.283845,5.10776" tangent_in="0.114457,-0.008181,-0.046965" tangent_out="-0.620663,0.044365,0.254679" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-42.954446,-2.246979,5.85313" tangent_in="0.667613,0.052337,0.060054" tangent_out="-0.169053,-0.013253,-0.015207" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-43.39716,-2.284298,5.601173" tangent_in="0.067901,0.006498,0.15599" tangent_out="-0.189133,-0.018101,-0.434498" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-43.478852,-2.256068,4.181133" tangent_in="0.132989,0.000011,0.455194" tangent_out="-0.053576,-0.000005,-0.183381" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-43.856435,-2.2965,3.751846" tangent_in="0.158869,0.014744,0.105082" tangent_out="-0.273635,-0.025394,-0.180993" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-44.778973,-2.294908,3.400518" tangent_in="0.328824,-0.012159,-0.002479" tangent_out="-0.460719,0.017035,0.003474" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-46.098595,-2.228796,3.809546" tangent_in="0.459776,-0.013512,-0.031432" tangent_out="-0.3333,0.009795,0.022786" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-47.063046,-2.238897,3.535562" tangent_in="0.292477,-0.023688,0.16" tangent_out="-0.113536,0.009195,-0.06211" width="0.799998" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-47.387826,-2.189038,3.326932" tangent_in="0.122879,-0.01558,0.038611" tangent_out="-0.308147,0.039071,-0.096826" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-48.344971,-2.168538,3.517086" tangent_in="0.321291,0.030457,0.04124" tangent_out="-0.184635,-0.017503,-0.023699" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-48.839707,-2.236443,3.261648" tangent_in="0.071816,0.010247,0.172324" tangent_out="-0.052171,-0.007444,-0.125187" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-48.853654,-2.239024,2.854414" tangent_in="0.012912,0.000032,0.135212" tangent_out="-0.034467,-0.000085,-0.360919" width="0.799997" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-49.623063,-2.203978,2.086407" tangent_in="0.360918,-0.028892,0.018801" tangent_out="-0.334544,0.026781,-0.017427" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-50.600922,-2.171875,2.329773" tangent_in="0.32529,0.001204,-0.084413" tangent_out="0,0,0" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="16587b794e3cc82">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="684.65094 -0.02257 327.28046" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="-0.061379,0.018927,0.386865" tangent_out="0.061379,-0.018927,-0.386865" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.054299,-0.02494,-1.174963" tangent_in="0.116751,-0.004738,0.374348" tangent_out="-0.098973,0.004017,-0.317345" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.434144,0.001129,-2.096764" tangent_in="0.035609,-0.001181,0.33053" tangent_out="-0.033461,0.001109,-0.310592" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.267351,-0.010971,-3.018895" tangent_in="0.096872,-0.016936,0.296508" tangent_out="-0.105069,0.018369,-0.321596" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.801552,0.075085,-3.87938" tangent_in="0.170993,-0.03419,0.290506" tangent_out="-0.164889,0.03297,-0.280135" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.200195,0.19759,-4.766418" tangent_in="0.106714,-0.044624,0.305569" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="182365c3175d545">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="87.33332 0.59353 138.51938" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.002758,-0.019592,-0.329389" tangent_out="-0.002758,0.019592,0.329389" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.210679,-0.000978,0.967269" tangent_in="0.156835,0.027395,-0.289035" tangent_out="-0.124499,-0.021747,0.229442" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.672581,-0.095484,1.595971" tangent_in="0.100215,0.014059,-0.241611" tangent_out="-0.126683,-0.017772,0.305424" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.826309,-0.079618,2.57727" tangent_in="-0.01392,-0.024229,-0.32995" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="1a2e740821cac42">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="485.4386 4.4543 176.03889" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="-0.000001,0,0" tangent_in="-0.553533,0.24022,-0.086907" tangent_out="0.553533,-0.24022,0.086907" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="1.671395,-0.742296,-0.018503" tangent_in="-0.522997,0.253163,0.184497" tangent_out="0.443685,-0.214771,-0.156518" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="2.909108,-1.281687,-0.782998" tangent_in="-0.471696,0.190674,0.092883" tangent_out="0.165953,-0.067083,-0.032678" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="3.394975,-1.41947,-0.575814" tangent_in="-0.154329,0.044847,-0.085321" tangent_out="0.284365,-0.082634,0.157212" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="4.318321,-1.649791,-0.250159" tangent_in="-0.32175,0.093854,0.008719" tangent_out="0.369652,-0.107827,-0.010017" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="5.301304,-1.904165,-0.801852" tangent_in="-0.376318,0.054453,0.061558" tangent_out="0.322335,-0.046642,-0.052727" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="6.286324,-1.962587,-0.724261" tangent_in="-0.321408,0.009608,-0.073889" tangent_out="0.319766,-0.009559,0.073512" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="7.253283,-1.960856,-0.537987" tangent_in="-0.323666,-0.009004,0.053898" tangent_out="0.458347,0.012751,-0.076326" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="8.499618,-1.949978,-1.163417" tangent_in="-0.368065,-0.037738,0.281379" tangent_out="0.29775,0.030529,-0.227625" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="9.454009,-1.918978,-1.764064" tangent_in="-0.376025,-0.000641,0.0023" tangent_out="0.470764,0.000802,-0.002879" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="10.814605,-2.007276,-1.395783" tangent_in="-0.43784,0.055651,-0.163789" tangent_out="0.428108,-0.054414,0.160148" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="12.022591,-2.168776,-0.746435" tangent_in="-0.321926,0.091138,-0.316137" tangent_out="0.317823,-0.089977,0.312108" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="12.867126,-2.313482,0.313985" tangent_in="-0.441121,0.053656,-0.095141" tangent_out="0.440185,-0.053542,0.09494" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="14.157618,-2.283527,-0.115578" tangent_in="-0.43902,0.017267,-0.112281" tangent_out="0.223623,-0.008795,0.057192" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="14.608817,-2.307881,0.409802" tangent_in="-0.122877,0.00444,-0.195543" tangent_out="0.147799,-0.005341,0.235204" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="15.248661,-2.32238,0.943783" tangent_in="-0.270845,0.005611,-0.061687" tangent_out="0.360482,-0.007467,0.082102" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="16.345624,-2.41638,0.80766" tangent_in="-0.355982,0.044428,0.089704" tangent_out="0.693896,-0.086601,-0.174855" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="18.411803,-2.647982,0.213229" tangent_in="-0.70037,0.02719,0.168248" tangent_out="0.555436,-0.021563,-0.133431" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="20.123189,-2.754059,0.183034" tangent_in="-0.569491,0.031528,-0.038264" tangent_out="0.269704,-0.014931,0.018122" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="20.930379,-2.842625,0.198038" tangent_in="-0.261858,0.032467,0.060565" tangent_out="0.35015,-0.043414,-0.080987" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="21.58611,-3.088817,-0.63193" tangent_in="-0.338968,0.042498,0.119765" tangent_out="0.238273,-0.029873,-0.084187" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="22.346267,-3.108765,-0.564495" tangent_in="-0.254132,0.00212,-0.012894" tangent_out="0.356834,-0.002977,0.018104" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="23.417058,-3.107075,-0.613588" tangent_in="-0.356014,-0.002477,0.030255" tangent_out="0.262175,0.001824,-0.022281" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="24.189206,-3.116611,-0.77735" tangent_in="-0.226057,0.017238,0.133554" tangent_out="0.371309,-0.028314,-0.219368" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="24.366288,-3.30339,-2.048139" tangent_in="-0.064011,0.048578,0.424661" tangent_out="0.011373,-0.008631,-0.075452" width="0.800002" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="24.436111,-3.316915,-2.267258" tangent_in="-0.057617,-0.000525,0.050762" tangent_out="0.895889,0.008168,-0.789301" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="27.533467,-3.275814,-4.066096" tangent_in="-0.999469,-0.011308,0.653157" tangent_out="0.161403,0.001826,-0.105477" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="27.986983,-3.272317,-4.425162" tangent_in="-0.175343,0.000381,0.080215" tangent_out="0.462375,-0.001005,-0.211525" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="29.489663,-3.268512,-4.162966" tangent_in="-0.491851,0.001536,-0.128897" tangent_out="0.642421,-0.002006,0.168357" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="31.481034,-3.331081,-4.16178" tangent_in="-0.617557,0.040423,0.240919" tangent_out="0.363246,-0.023777,-0.141708" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="32.286338,-3.438056,-5.006405" tangent_in="-0.216794,0.037406,0.322793" tangent_out="0.247756,-0.042748,-0.368895" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="33.191867,-3.544394,-5.987402" tangent_in="-0.369924,0.018489,0.249215" tangent_out="0.6047,-0.030224,-0.407383" width="0.800002" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="35.215495,-3.555996,-6.822641" tangent_in="-0.426117,0.035282,0.591368" tangent_out="0.267344,-0.022136,-0.371022" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="35.637481,-3.649884,-8.126367" tangent_in="-0.331352,0.051171,0.311783" tangent_out="0.290162,-0.04481,-0.273026" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="36.671649,-4.188899,-8.420754" tangent_in="-0.352053,0.188018,0.038118" tangent_out="0.222873,-0.119028,-0.024131" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="37.399077,-4.403198,-8.489498" tangent_in="-0.239799,0.083129,-0.002873" tangent_out="0.304112,-0.105424,0.003643" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="38.264094,-4.830403,-8.531295" tangent_in="-0.292157,0.020729,0.133514" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="1efe4cc50e59dbc">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="412.2088 2.27 71.6851" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.428335,0.034445,0.172791" tangent_out="-0.428335,-0.034445,-0.172791" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.370893,-0.147273,-0.172019" tangent_in="0.447563,0.07075,-0.095896" tangent_out="-0.640626,-0.10127,0.137263" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-3.152566,-0.592242,0.591611" tangent_in="0.635207,0.154504,-0.110177" tangent_out="-0.377266,-0.091764,0.065437" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-4.30157,-0.859671,0.651285" tangent_in="0.376262,0.063139,-0.097326" tangent_out="-0.258623,-0.043399,0.066897" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-5.068369,-0.98478,0.88701" tangent_in="0.246846,0.053467,-0.097224" tangent_out="-0.177781,-0.038507,0.070022" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-5.589166,-1.104723,1.124315" tangent_in="0.192798,0.023323,-0.016649" tangent_out="-0.260145,-0.031471,0.022465" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-6.366678,-1.153425,0.99927" tangent_in="0.243938,0.018979,-0.09646" tangent_out="-0.177268,-0.013792,0.070097" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-6.694348,-1.150198,1.469772" tangent_in="0.085879,-0.005197,-0.170662" tangent_out="-0.171733,0.010393,0.341273" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-7.444391,-1.193856,2.335877" tangent_in="0.382058,0.006909,-0.007182" tangent_out="-0.194997,-0.003526,0.003666" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-7.991591,-1.218378,2.129923" tangent_in="0.171969,0.009186,0.091608" tangent_out="-0.250534,-0.013382,-0.133459" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-8.724874,-1.228341,1.695163" tangent_in="0.228428,-0.008271,0.168849" tangent_out="-0.150576,0.005452,-0.111302" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-9.207515,-1.209875,1.407875" tangent_in="0.18448,-0.00126,0.032504" tangent_out="-0.323825,0.002212,-0.057056" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-10.164989,-1.246732,1.642383" tangent_in="0.289737,-0.005491,-0.155389" tangent_out="-0.223452,0.004235,0.11984" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-10.870984,-1.212954,1.923852" tangent_in="0.251303,-0.000717,0.034012" tangent_out="-0.333927,0.000953,-0.045194" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-11.840694,-1.227811,1.638546" tangent_in="0.336819,-0.001664,-0.010064" tangent_out="-0.317371,0.001568,0.009483" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-12.790794,-1.204624,1.702773" tangent_in="0.285192,-0.004593,0.139505" tangent_out="-0.361261,0.005818,-0.176715" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-13.82155,-1.191334,1.075629" tangent_in="0.397549,0.009063,0.060366" tangent_out="-0.331373,-0.007554,-0.050318" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-14.822535,-1.282565,1.111417" tangent_in="0.335237,-0.002718,0.002407" tangent_out="-0.192302,0.001559,-0.001381" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-15.392302,-1.244629,1.029035" tangent_in="0.174271,0.001138,0.081319" tangent_out="-0.304537,-0.001989,-0.142104" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-16.190563,-1.293122,0.41512" tangent_in="0.312347,0.028961,0.120585" tangent_out="-0.292104,-0.027084,-0.11277" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-17.12603,-1.383438,0.49078" tangent_in="0.273651,0.050227,0.146178" tangent_out="-0.294253,-0.054008,-0.157183" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-17.766866,-1.570353,-0.272281" tangent_in="0.220778,0.019932,0.255084" tangent_out="-0.128145,-0.011569,-0.148058" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-18.194561,-1.543258,-0.675554" tangent_in="0.185327,0.004887,0.064079" tangent_out="-0.244818,-0.006456,-0.084649" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-18.943861,-1.634578,-0.489819" tangent_in="0.253107,0.035059,-0.043023" tangent_out="-0.697824,-0.096658,0.118616" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-20.794681,-1.969691,-1.517193" tangent_in="0.604879,0.089725,0.369381" tangent_out="-0.394095,-0.058458,-0.240662" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-22.078199,-2.201057,-2.016064" tangent_in="0.458826,0.034107,0.07044" tangent_out="-0.324773,-0.024142,-0.04986" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-23.065311,-2.250951,-2.010088" tangent_in="0.315103,0.015227,-0.094996" tangent_out="-0.19453,-0.009401,0.058646" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-23.616491,-2.294248,-1.751914" tangent_in="0.19386,0.014364,-0.059849" tangent_out="-0.172094,-0.012751,0.053129" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-24.147054,-2.326764,-1.647705" tangent_in="0.162697,0.012461,-0.077304" tangent_out="-0.309286,-0.023688,0.146954" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-25.050203,-2.388995,-1.157013" tangent_in="0.341846,0.003026,-0.030767" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="1f32e82f5c10574">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="503.25848 4.62106 213.82655" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.082258,-0.049097,1.12287" tangent_out="-0.082258,0.049097,-1.12287" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="2.64626,-0.018957,-2.104064" tangent_in="-0.558773,0.040891,0.977812" tangent_out="0.233466,-0.017085,-0.408549" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="3.073608,-0.074396,-3.449313" tangent_in="-0.032038,0.008083,0.469701" tangent_out="0.022455,-0.005666,-0.329213" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="3.078411,-0.12363,-4.438158" tangent_in="-0.044157,0.048742,0.323407" tangent_out="0.03737,-0.04125,-0.273697" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="3.329098,-0.283029,-5.221623" tangent_in="-0.083989,0.02565,0.265134" tangent_out="0.071577,-0.021859,-0.225953" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="3.544032,-0.305714,-5.902206" tangent_in="-0.139255,0.004995,0.192975" tangent_out="0.20571,-0.007379,-0.285065" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="4.497617,-0.347523,-6.351235" tangent_in="-0.344365,0.015159,0.0694" tangent_out="0.507424,-0.022337,-0.102261" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="6.046327,-0.393675,-6.47487" tangent_in="-0.516259,-0.04319,0.00686" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="1ad57c7b33cd98b">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="650.17206 0.54706 344.60025" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="-0.013067,-0.001428,0.83861" tangent_out="0.013067,0.001428,-0.83861" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.852665,-0.004398,-2.367256" tangent_in="0.422532,0.006615,0.724474" tangent_out="-0.141048,-0.002208,-0.241841" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.317731,-0.083214,-3.062223" tangent_in="0.163654,0.040203,0.223578" tangent_out="-0.818493,-0.201068,-1.118194" width="1.096996" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-4.240234,-0.634161,-6.029022" tangent_in="1.216726,0.00121,0.693033" tangent_out="0,0,0" width="1.5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="1c89b3fc732ffc3">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="652.85327 0.52456 341.56131" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.144806,0.001193,0.840033" tangent_out="-0.144806,-0.001193,-0.840033" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.864431,-0.001932,-2.406739" tangent_in="0.494996,0.001103,0.693977" tangent_out="-0.333882,-0.000744,-0.468097" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.879035,-0.000967,-3.801697" tangent_in="0.09726,0.012356,0.566551" tangent_out="-0.068526,-0.008706,-0.399174" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.724495,-0.109341,-5.002271" tangent_in="-0.080602,0.038306,0.395155" tangent_out="0.049654,-0.023598,-0.243434" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.699742,-0.177578,-5.747437" tangent_in="0.043138,0.071576,0.235156" tangent_out="-0.066103,-0.109679,-0.36034" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.075256,-0.602702,-6.744659" tangent_in="0.144748,-0.048395,0.350642" tangent_out="0,0,0" width="1" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+    <entity id="16e3f637ca414bd">
+      <ECRiver/>
+      <ECVisibilitySettingsCampaign visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="649.223328 0 382.683228" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+        <spline closed="false">
+          <point position="0,0,0" tangent_in="0.168692,-0.000022,2.656902" tangent_out="-0.168692,0.000022,-2.656902" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="0.054947,0.031248,-7.986507" tangent_in="-0.207715,-0.001829,2.654136" tangent_out="0.139336,0.001227,-1.780395" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="0.494526,0.042899,-13.32595" tangent_in="-0.045084,-0.003317,1.785268" tangent_out="0.022324,0.001643,-0.883988" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="0.370394,0.038698,-15.975854" tangent_in="0.071521,0.005013,0.88136" tangent_out="-0.121353,-0.008506,-1.495429" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-0.458618,0.016458,-20.399903" tangent_in="0.493635,0.000027,1.416839" tangent_out="0,0,0" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+        </spline>
+      </ECRiverSpline>
+      <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+    </entity>
+    <entity id="1485765db6ca9c2">
+      <ECRiver/>
+      <ECVisibilitySettingsCampaign visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="649.833008 0 407.100647" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+        <spline closed="false">
+          <point position="0,0,0" tangent_in="0.11906,-0.000144,0.466828" tangent_out="-0.11906,0.000144,-0.466828" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-0.163442,0.035524,-1.435604" tangent_in="0.097452,-0.012197,0.471655" tangent_out="-0.445537,0.055764,-2.156347" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-3.45877,0.021046,-7.163049" tangent_in="1.026231,0.035556,1.948598" tangent_out="-0.435964,-0.015105,-0.827805" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-4.131976,0.002636,-9.888197" tangent_in="0.023777,0.004855,0.935395" tangent_out="-0.024366,-0.004975,-0.958557" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-3.70892,-0.022563,-12.733445" tangent_in="-0.201579,0.005714,0.937434" tangent_out="0.159915,-0.004533,-0.743676" width="4.999999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-3.189028,-0.041873,-14.955418" tangent_in="-0.264965,0.011775,0.712953" tangent_out="0.273842,-0.01217,-0.736837" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-2.184165,-0.058483,-17.089092" tangent_in="-0.317842,0.001492,0.719055" tangent_out="0.487307,-0.002288,-1.102435" width="4.999999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-0.941662,-0.066667,-20.484921" tangent_in="-0.347994,0.001758,1.154008" tangent_out="0.21069,-0.001064,-0.698683" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-0.54374,-0.072878,-22.637724" tangent_in="-0.027097,0.005087,0.729239" tangent_out="0.026341,-0.004945,-0.708911" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-0.600159,-0.089083,-24.765167" tangent_in="-0.037652,0.000106,0.708418" tangent_out="0,0,0" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+        </spline>
+      </ECRiverSpline>
+      <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+    </entity>
+    <entity id="12cd72e759828c1">
+      <ECRiver/>
+      <ECVisibilitySettingsCampaign visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="641.427612 0 353.68399" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+        <spline closed="false">
+          <point position="0,0,0" tangent_in="0.50346,-0.017795,0.657234" tangent_out="-0.50346,0.017795,-0.657234" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-0.606206,0.034114,-2.408953" tangent_in="-0.056325,0.008367,0.826137" tangent_out="0.089856,-0.013348,-1.317947" width="4.999999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-0.575858,-0.136124,-6.368401" tangent_in="0.471932,0.00314,1.233899" tangent_out="-0.060929,-0.000405,-0.159303" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-0.761494,-0.133402,-6.845206" tangent_in="0.057241,-0.002085,0.160652" tangent_out="-0.14077,0.005127,-0.395087" width="5.110885" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-1.153085,-0.094578,-8.040435" tangent_in="0.169784,-0.015024,0.383254" tangent_out="-0.131443,0.011631,-0.296708" width="5.664347" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-1.688126,-0.077989,-8.85437" tangent_in="0.194792,-0.00044,0.259816" tangent_out="-0.386598,0.000873,-0.515649" width="5.99465" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-1.864362,-0.0847,-10.779745" tangent_in="-0.076318,0.002771,0.639938" tangent_out="0.157028,-0.005701,-1.316701" width="5.643883" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-1.03949,-0.099574,-14.671389" tangent_in="-0.277115,0.00004,1.296765" tangent_out="0,0,0" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+        </spline>
+      </ECRiverSpline>
+      <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+    </entity>
+    <entity id="1caeb38cd80a234">
+      <ECRiver/>
+      <ECVisibilitySettingsCampaign visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="649.451416 0 364.28595" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+        <spline closed="false">
+          <point position="0,0,0" tangent_in="0.510178,-0.000004,0.90764" tangent_out="-0.510178,0.000004,-0.90764" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-1.994293,0.005524,-2.404079" tangent_in="0.823624,-0.003929,0.636961" tangent_out="-1.111029,0.0053,-0.85923" width="5.161077" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-5.365392,0.020242,-4.931862" tangent_in="0.904757,-0.001363,1.074293" tangent_out="-0.218101,0.000329,-0.258969" width="5.469069" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-5.968986,0.020532,-5.74879" tangent_in="0.187629,0.000139,0.28183" tangent_out="-0.412742,-0.000307,-0.619963" width="5.48921" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-7.010346,0.014463,-7.725635" tangent_in="0.258283,0.004178,0.698557" tangent_out="-0.386523,-0.006252,-1.045397" width="5.344582" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-8.200685,-0.00349,-10.850283" tangent_in="0.631739,0.000018,0.91826" tangent_out="0,0,0" width="5" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+        </spline>
+      </ECRiverSpline>
+      <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+    </entity>
+		<entity id="1fd2ba3534e6aab">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="386.63925 2.57428 575.14392" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.364986,-0.007972,0.246096" tangent_out="-0.364986,0.007972,-0.246096" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.242804,0.020384,-0.44676" tangent_in="0.403719,0.035235,-0.172077" tangent_out="-0.422322,-0.036859,0.180006" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.209157,-0.090797,0.534488" tangent_in="0.299436,0.025947,-0.348972" tangent_out="-0.261419,-0.022652,0.304666" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-3.20844,-0.172043,1.205236" tangent_in="0.331131,0.043243,-0.223956" tangent_out="-0.197447,-0.025785,0.13354" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-3.858879,-0.263479,1.49835" tangent_in="0.232652,0.00188,0.0579" tangent_out="-0.268484,-0.00217,-0.066817" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-4.600376,-0.228149,1.126986" tangent_in="0.233006,-0.01537,0.148408" tangent_out="-0.166881,0.011008,-0.106291" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-5.063602,-0.195939,0.755774" tangent_in="0.109861,-0.008985,0.164676" tangent_out="-0.143328,0.011722,-0.214841" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-5.24208,-0.166272,0.001587" tangent_in="0.122557,-0.015866,0.227079" tangent_out="-0.118502,0.015341,-0.219566" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-5.859633,-0.121043,-0.421458" tangent_in="0.249242,0.009767,-0.016442" tangent_out="-0.267049,-0.010465,0.017617" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-6.570991,-0.201765,-0.056668" tangent_in="0.229364,0.030154,-0.134975" tangent_out="-0.397714,-0.052287,0.234045" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-7.693769,-0.372656,0.750395" tangent_in="0.286395,0.058677,-0.360863" tangent_out="-0.161354,-0.033058,0.203308" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-7.883095,-0.467601,1.50624" tangent_in="0.081778,0.030989,-0.246606" tangent_out="-0.057288,-0.021709,0.172756" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-8.273731,-0.524431,1.889062" tangent_in="0.171669,0.015527,-0.06234" tangent_out="-0.539942,-0.048836,0.196074" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-9.846807,-0.617249,1.176234" tangent_in="0.561217,0.087552,-0.098677" tangent_out="-0.192205,-0.029985,0.033795" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-10.350437,-0.718362,1.471175" tangent_in="0.167166,0.028168,-0.101223" tangent_out="-0.229247,-0.038629,0.138815" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-11.078629,-0.78355,1.825198" tangent_in="0.252989,0.016019,-0.095164" tangent_out="-0.351037,-0.022227,0.132046" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-12.200687,-0.883231,1.786998" tangent_in="0.361549,0.030732,-0.09744" tangent_out="-0.398496,-0.033872,0.107397" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-13.31415,-0.978092,2.3297" tangent_in="0.325055,0.03826,-0.253685" tangent_out="-0.100891,-0.011875,0.078739" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-13.59567,-1.016263,2.590408" tangent_in="0.114768,0.011549,-0.0567" tangent_out="-0.448326,-0.045117,0.221494" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-14.963175,-1.046099,1.959643" tangent_in="0.489877,0.009798,0.109617" tangent_out="-0.517064,-0.010342,-0.1157" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-16.418688,-1.089009,2.597825" tangent_in="0.524354,0.032588,-0.069566" tangent_out="-0.251389,-0.015624,0.033352" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-17.133741,-1.15853,2.343184" tangent_in="0.25279,0.014869,0.020713" tangent_out="-0.329766,-0.019397,-0.027021" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-18.082544,-1.157202,2.640567" tangent_in="0.283455,-0.002824,-0.171748" tangent_out="-0.589326,0.005871,0.357078" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-18.455254,-1.248452,4.671911" tangent_in="-0.220513,0.039521,-0.651656" tangent_out="0.047017,-0.008427,0.138944" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-18.207384,-1.274445,5.035463" tangent_in="-0.114875,0.007936,-0.091258" tangent_out="0.142978,-0.009877,0.113584" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-17.751665,-1.28784,5.340609" tangent_in="-0.078497,-0.015279,-0.164458" tangent_out="0.044481,0.008658,0.093192" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-17.727802,-1.270549,5.650086" tangent_in="-0.0181,0.003654,-0.101967" tangent_out="0.058308,-0.01177,0.328478" width="0.799998" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-17.799418,-1.322126,6.647652" tangent_in="0.212907,0.018524,-0.256445" tangent_out="-0.34362,-0.029897,0.413888" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-19.207136,-1.400376,7.438005" tangent_in="0.391172,0.029299,-0.369321" tangent_out="-0.232496,-0.017414,0.219509" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-19.53558,-1.45389,8.339191" tangent_in="0.178483,0.012968,-0.265551" tangent_out="-0.150017,-0.0109,0.223199" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-20.220646,-1.468787,8.766319" tangent_in="0.250463,0.002348,-0.098512" tangent_out="-0.181446,-0.001701,0.071367" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-20.789619,-1.474601,8.901987" tangent_in="0.193167,0.002014,0.026485" tangent_out="-0.240847,-0.002511,-0.033022" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-21.491285,-1.488841,8.7035" tangent_in="0.212682,0.013499,-0.116996" tangent_out="-0.403838,-0.025633,0.222151" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-22.201799,-1.537125,9.89122" tangent_in="0.126358,0.020817,-0.443502" tangent_out="-0.072918,-0.012013,0.255933" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-22.390381,-1.588748,10.666099" tangent_in="0.13151,0.017941,-0.230968" tangent_out="-0.157339,-0.021465,0.276329" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-23.07481,-1.644539,11.33139" tangent_in="0.118901,0.014718,-0.295331" tangent_out="-0.191765,-0.023737,0.476314" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-23.081558,-1.705671,12.872211" tangent_in="-0.327959,0.02998,-0.39466" tangent_out="0.298398,-0.027278,0.359088" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-21.870928,-1.793097,13.575985" tangent_in="-0.266437,0.049209,-0.381208" tangent_out="0.144321,-0.026655,0.206489" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-21.727772,-1.891013,14.315924" tangent_in="-0.141861,0.028318,-0.207967" tangent_out="0.147725,-0.029489,0.216562" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-21.090618,-1.954542,14.781026" tangent_in="-0.228146,0.018246,-0.131179" tangent_out="0.232973,-0.018632,0.133955" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-20.345264,-2.001709,15.089783" tangent_in="-0.26901,0.007117,-0.012261" tangent_out="0.315807,-0.008355,0.014394" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-19.416746,-2.001107,14.89497" tangent_in="-0.299382,0.016211,-0.100591" tangent_out="0.380281,-0.020592,0.127772" width="0.800001" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-18.478912,-2.09354,15.6461" tangent_in="-0.194255,0.032397,-0.350113" tangent_out="0.092773,-0.015472,0.167208" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-18.366642,-2.132253,16.209251" tangent_in="-0.108008,0.006273,-0.158429" tangent_out="0.14351,-0.008335,0.210504" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-17.743626,-2.148591,16.652389" tangent_in="-0.097133,0.027541,-0.234058" tangent_out="0.179432,-0.050876,0.43237" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-17.849094,-2.361809,18.044857" tangent_in="0.022907,0.058804,-0.466632" tangent_out="-0.01194,-0.030651,0.243229" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-17.736242,-2.396204,18.771673" tangent_in="0.088014,0.011629,-0.228824" tangent_out="-0.214151,-0.028296,0.556761" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-19.173094,-2.538963,19.832273" tangent_in="0.312705,0.01819,-0.508457" tangent_out="-0.175138,-0.010187,0.284773" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-19.217438,-2.502553,20.834055" tangent_in="-0.045742,-0.013722,-0.331048" tangent_out="0.043749,0.013124,0.316628" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-19.192657,-2.560693,21.791687" tangent_in="0.020535,0.017365,-0.318773" tangent_out="0,0,0" width="0.799999" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="135c4149730dace">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="152.55641 0.57149 639.59595" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="-0.520931,0.081796,0.492804" tangent_out="0.520931,-0.081796,-0.492804" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="1.177067,-0.322755,-1.788458" tangent_in="-0.184041,0.147231,0.682178" tangent_out="0.101331,-0.081064,-0.3756" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="1.298645,-0.611686,-2.93866" tangent_in="-0.111444,0.105809,0.366468" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="178f6b9267233cb">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="423.76389 1.2186 547.7547" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.584033,0.012791,-0.332594" tangent_out="-0.584033,-0.012791,0.332594" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.987847,-0.04574,-0.336541" tangent_in="0.571208,0.016007,0.354035" tangent_out="-0.272014,-0.007623,-0.168594" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.788306,-0.03388,-0.867003" tangent_in="0.155119,0.022672,0.279102" tangent_out="-0.217437,-0.03178,-0.391229" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.854163,-0.110874,-2.209342" tangent_in="0.133869,0.033037,0.427009" tangent_out="-0.057862,-0.01428,-0.184565" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-3.217486,-0.183292,-2.658004" tangent_in="0.140981,0.021308,0.131478" tangent_out="-0.279962,-0.042314,-0.261092" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-4.11438,-0.168455,-3.386291" tangent_in="0.311736,-0.033781,0.223646" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="12094dd641e9d27">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="418.39291 0.83986 539.5365" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.058549,0.027567,0.319206" tangent_out="-0.058549,-0.027567,-0.319206" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.133699,-0.047281,-0.966753" tangent_in="0.013337,0.000838,0.325425" tangent_out="-0.010579,-0.000665,-0.258141" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-0.173992,-0.030839,-1.740606" tangent_in="0.104478,0.002664,0.236276" tangent_out="-0.156362,-0.003986,-0.353614" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.093058,-0.063713,-2.447576" tangent_in="0.350259,-0.013621,0.163221" tangent_out="-0.170561,0.006633,-0.079482" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-1.643243,-0.049455,-2.574719" tangent_in="0.185258,0.005675,-0.033159" tangent_out="-0.190104,-0.005824,0.034026" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.139788,-0.091329,-2.278627" tangent_in="0.159327,0.016454,-0.108052" tangent_out="-0.267626,-0.027638,0.181498" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-3.020874,-0.179899,-1.873901" tangent_in="0.314823,0.048731,-0.061974" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="1f30c1f25177da5">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="441.14261 0.95865 506.89786" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="0.796704,0.031979,-0.12281" tangent_out="-0.796704,-0.031979,0.12281" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="-2.406891,0.02376,-0.252777" tangent_in="0.801455,0.002697,-0.092223" tangent_out="0,0,0" width="0.8" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
+		<entity id="1f74f7bd0f10525">
+			<ECRiver/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECTransform position="268.15945 0.05099 430.15903" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECRiverSpline terrain_relative="false" reverse_direction="false" material="materials/environment/campaign_sea/cr_combi_expanded_campaign_water_plane.xml.material">
+				<spline closed="false">
+					<point position="0,0,0" tangent_in="-0.326794,0.014638,-0.022963" tangent_out="0.326794,-0.014638,0.022963" width="0.3" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="0.916421,-0.03817,0.355722" tangent_in="-0.256173,-0.007358,-0.20459" tangent_out="0.199425,0.005728,0.159268" width="0.3" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="1.29417,-0.044687,1.021895" tangent_in="-0.064256,0.06796,-0.237533" tangent_out="0.150091,-0.158742,0.554834" width="0.3" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+					<point position="1.523712,-0.810114,2.622376" tangent_in="-0.245596,0.1299,-0.527614" tangent_out="0,0,0" width="0.3" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+				</spline>
+			</ECRiverSpline>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="true" culture_mask="" season_mask=""/>
+		</entity>
 	</entities>
 	<associations>
 		<Logical>
