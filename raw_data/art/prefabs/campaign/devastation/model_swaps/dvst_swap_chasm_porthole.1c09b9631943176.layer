@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dvst_swap_chasm_porthole -->
+<layer version="41">
+	<entities>
+		<entity id="12af63c4c7037c5">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/end_gen_porthole_01.rigid_model.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0 0 0" rotation="-0.64814 -0.01303 2.644" scale="13.43179 0.1 16.05045" pivot="0 0 0"/>
+		</entity>
+		<entity id="12f045a17474986">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/end_gen_porthole_02.rigid_model.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0 0 0" rotation="-0.64814 -0.01303 2.644" scale="13.43179 0.1 16.05045" pivot="0 0 0"/>
+		</entity>
+		<entity id="10549258e3a6d10">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/end_gen_porthole_03.rigid_model.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0 0 0" rotation="-0.64814 -0.01303 2.644" scale="13.43179 0.1 16.05045" pivot="0 0 0"/>
+		</entity>
+		<entity id="18f6852a98af56b" name="devastation_chaos">
+			<ECLayer export="true" bmd_export_type="devastation_chaos"/>
+		</entity>
+		<entity id="11dfd3d0affb383" name="devastation_nagash">
+			<ECLayer export="true" bmd_export_type="devastation_nagash"/>
+		</entity>
+		<entity id="1338975fbc705e7" name="devastation_skaven">
+			<ECLayer export="true" bmd_export_type="devastation_skaven"/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="18f6852a98af56b">
+				<to id="12af63c4c7037c5"/>
+			</from>
+			<from id="11dfd3d0affb383">
+				<to id="12f045a17474986"/>
+			</from>
+			<from id="1338975fbc705e7">
+				<to id="10549258e3a6d10"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

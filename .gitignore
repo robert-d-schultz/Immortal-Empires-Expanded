@@ -1,18 +1,43 @@
-# Whitelist: only the Immortal Empires Expanded map folders are tracked.
+# Whitelist: only these assembly_kit paths are tracked.
+# (Git can't re-include a file whose parent folder is ignored, so each level is opened explicitly.)
 /*
 !/.gitignore
 !/.gitattributes
-!/battles/
-!/campaigns/
+!/README.md
+!/raw_data/
+!/working_data/
 
-/battles/*
-!/battles/rules.bob
-!/battles/cr_combi_expanded_map/
+/raw_data/*
+!/raw_data/terrain/
+!/raw_data/art/
 
-/campaigns/*
-!/campaigns/rules.bob
-!/campaigns/cr_combi_expanded_map_1/
-!/campaigns/cr_combi_expanded_map_devastate_1/
+# Terrain: only the Immortal Empires Expanded map folders
+/raw_data/terrain/*
+!/raw_data/terrain/battles/
+!/raw_data/terrain/campaigns/
+
+/raw_data/terrain/battles/*
+!/raw_data/terrain/battles/rules.bob
+!/raw_data/terrain/battles/cr_combi_expanded_map/
+
+/raw_data/terrain/campaigns/*
+!/raw_data/terrain/campaigns/rules.bob
+!/raw_data/terrain/campaigns/cr_combi_expanded_map_1/
+!/raw_data/terrain/campaigns/cr_combi_expanded_map_devastate_1/
+
+# Art: devastation prefabs
+/raw_data/art/*
+!/raw_data/art/prefabs/
+/raw_data/art/prefabs/*
+!/raw_data/art/prefabs/campaign/
+/raw_data/art/prefabs/campaign/*
+!/raw_data/art/prefabs/campaign/devastation/
+
+# Working data: Terry's default campaign lighting
+/working_data/*
+!/working_data/Weather/
+/working_data/Weather/*
+!/working_data/Weather/terry_default_campaign.environment
 
 # Terry per-user view state
 *.terry.user
