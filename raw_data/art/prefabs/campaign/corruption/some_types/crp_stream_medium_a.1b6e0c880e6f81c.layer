@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_stream_medium_a -->
+<layer version="41">
+	<entities>
+		<entity id="1489e3106045d78">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/lava/kho_stream_medium.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_kho_khorne" season_mask=""/>
+			<ECTransform position="0 1.41769 0" rotation="4.97958 40.99853 -0.13839" scale="1 1.07911 1.03143" pivot="0 0 0"/>
+		</entity>
+		<entity id="1a688c46c61e2fa">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/lava/tze_stream_medium.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_tze_tzeentch" season_mask=""/>
+			<ECTransform position="0 1.41769 0" rotation="4.97958 40.99853 -0.13839" scale="1 1.07911 1.03143" pivot="0 0 0"/>
+		</entity>
+		<entity id="151dc310879f753">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/lava/nur_stream_medium.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="0 1.41769 0" rotation="4.97958 40.99853 -0.13839" scale="1 1.07911 1.03143" pivot="0 0 0"/>
+		</entity>
+		<entity id="1401f04a1401eca">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/lava/sla_stream_medium.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_sla_slaanesh" season_mask=""/>
+			<ECTransform position="0 1.41769 0" rotation="4.97958 40.99853 -0.13839" scale="1 1.07911 1.03143" pivot="0 0 0"/>
+		</entity>
+		<entity id="156b14295ec4741" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="156b14295ec4741">
+				<to id="1489e3106045d78"/>
+				<to id="1a688c46c61e2fa"/>
+				<to id="151dc310879f753"/>
+				<to id="1401f04a1401eca"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

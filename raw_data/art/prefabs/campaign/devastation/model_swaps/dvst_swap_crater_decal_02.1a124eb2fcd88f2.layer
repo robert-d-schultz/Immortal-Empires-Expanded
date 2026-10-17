@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dvst_swap_crater_decal_02 -->
+<layer version="41">
+	<entities>
+		<entity id="1d5f0a88bb89f81">
+			<ECDecal model_path="rigidmodels/campaign/decals/craters/cwb_chs_crater_02.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" fade_start="0.875" mirror_x="true" mirror_z="false" angle_threshold="180" layer="1"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0 0.01187 0" rotation="0 0 0" scale="2.73938 3.55555 2.73937" pivot="0 0 0"/>
+		</entity>
+		<entity id="1b8c6e40689ced2">
+			<ECDecal model_path="rigidmodels/campaign/decals/craters/cwb_nag_crater_02.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" fade_start="0.875" mirror_x="true" mirror_z="false" angle_threshold="180" layer="1"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0 0.01187 0" rotation="0 0 0" scale="2.73938 3.55555 2.73937" pivot="0 0 0"/>
+		</entity>
+		<entity id="1fc86c73e1de186">
+			<ECDecal model_path="rigidmodels/campaign/decals/craters/cwb_crater_02.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" fade_start="0.875" mirror_x="true" mirror_z="false" angle_threshold="180" layer="1"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0 0.01187 0" rotation="0 0 0" scale="2.73938 3.55555 2.73937" pivot="0 0 0"/>
+		</entity>
+		<entity id="1a22179c5dcad07" name="devastation_chaos">
+			<ECLayer export="true" bmd_export_type="devastation_chaos"/>
+		</entity>
+		<entity id="12589699518ffbe" name="devastation_nagash">
+			<ECLayer export="true" bmd_export_type="devastation_nagash"/>
+		</entity>
+		<entity id="15aa3095a36dae9" name="devastation_skaven">
+			<ECLayer export="true" bmd_export_type="devastation_skaven"/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="1a22179c5dcad07">
+				<to id="1d5f0a88bb89f81"/>
+			</from>
+			<from id="12589699518ffbe">
+				<to id="1b8c6e40689ced2"/>
+			</from>
+			<from id="15aa3095a36dae9">
+				<to id="1fc86c73e1de186"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

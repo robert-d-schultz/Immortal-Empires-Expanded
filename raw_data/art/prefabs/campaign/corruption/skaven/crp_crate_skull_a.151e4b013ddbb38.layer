@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_crate_skull_a -->
+<layer version="41">
+	<entities>
+		<entity id="15239b27a3668d1">
+			<ECPropMesh/>
+			<ECMesh model_path="RigidModels/campaign/generic_props/barrels_crates/gen_crate_01.rigid_model_v2" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh2_main_skv_skaven" season_mask=""/>
+			<ECTransform position="-0.06035 0.63171 0.1651" rotation="-180 -20.75321 180" scale="0.6876 0.6876 0.6876" pivot="0 0 0"/>
+		</entity>
+		<entity id="1b30f6e0fbf270f">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/skull_mounds/skull_mound_04.rigid_model_v2" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh2_main_skv_skaven" season_mask=""/>
+			<ECTransform position="0.06034 0.38055 -0.16509" rotation="3.3578 7.07701 -0.08468" scale="0.56664 0.56664 0.56664" pivot="0 0 0"/>
+		</entity>
+		<entity id="16e9ba883e66cd1" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="16e9ba883e66cd1">
+				<to id="15239b27a3668d1"/>
+				<to id="1b30f6e0fbf270f"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

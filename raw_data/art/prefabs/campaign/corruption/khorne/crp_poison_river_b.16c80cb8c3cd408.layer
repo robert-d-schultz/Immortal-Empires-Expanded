@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_poison_river_b -->
+<layer version="41">
+	<entities>
+		<entity id="1acbe04f366473e">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh2_dlc09_campaign_enviro_poison_river_blood" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_kho_khorne" season_mask=""/>
+			<ECTransform position="-0.03403 -0.02699 -0.02121" rotation="-179.62786 26.36256 179.02451" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="157125e014e8dd1">
+			<ECSoundMarker key="Sound_Environment_Corruption_Ooze_Khorne_Loop" />
+			<ECTransform position="0.03401 -0.02482 0.02119" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask="wh3_main_kho_khorne"/>
+		</entity>
+		<entity id="12912e4916fa142" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+		<entity id="1fcfed651862111" name="sound">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="12912e4916fa142">
+				<to id="1acbe04f366473e"/>
+				<to id="1fcfed651862111"/>
+			</from>
+			<from id="1fcfed651862111">
+				<to id="157125e014e8dd1"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

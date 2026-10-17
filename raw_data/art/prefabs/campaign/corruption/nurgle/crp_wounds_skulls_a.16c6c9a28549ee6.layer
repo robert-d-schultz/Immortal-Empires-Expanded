@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_wounds_skulls_a -->
+<layer version="41">
+	<entities>
+		<entity id="1674c45885a623f">
+			<ECDecal model_path="rigidmodels/campaign/decals/nur/nur_wounds_skulls.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" fade_start="0.875" mirror_x="false" mirror_z="false" angle_threshold="90" layer="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="0.49262 -0.69709 0.34476" rotation="2.46571 -28.01729 -3.16284" scale="1.44 1.44 1.44" pivot="0 0 0"/>
+		</entity>
+		<entity id="1d70896c0bdbf38">
+			<ECDecal model_path="rigidmodels/campaign/decals/nur/nur_wounds_skulls.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" fade_start="0.875" mirror_x="false" mirror_z="false" angle_threshold="90" layer="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="-0.4495 -0.68509 0.31054" rotation="177.31806 35.73996 176.42867" scale="1.44 1.44 1.44" pivot="0 0 0"/>
+		</entity>
+		<entity id="1196cc928ef6f10">
+			<ECDecal model_path="rigidmodels/campaign/decals/nur/nur_wounds_skulls.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" fade_start="0.875" mirror_x="false" mirror_z="false" angle_threshold="90" layer="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="-0.04173 -0.68225 -0.6549" rotation="176.33702 -53.52465 -179.05716" scale="1.44 1.44 1.44" pivot="0 0 0"/>
+		</entity>
+		<entity id="1362439015ffe67" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="1362439015ffe67">
+				<to id="1674c45885a623f"/>
+				<to id="1d70896c0bdbf38"/>
+				<to id="1196cc928ef6f10"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

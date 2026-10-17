@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_crack_skincrack_a -->
+<layer version="41">
+	<entities>
+		<entity id="145b77fd7517a2d">
+			<ECDecal model_path="rigidmodels/campaign/decals/kho/kho_blood_crack_03.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" fade_start="0.875" mirror_x="false" mirror_z="false" angle_threshold="90" layer="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_kho_khorne" season_mask=""/>
+			<ECTransform position="-0.29681 -0.526 0.29842" rotation="180 -41.00006 180" scale="2.90767 2.90768 2.90767" pivot="0 0 0"/>
+		</entity>
+		<entity id="178f234b1954b06">
+			<ECDecal model_path="rigidmodels/campaign/decals/tze/tze_magic_crack_3.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" fade_start="0.875" mirror_x="false" mirror_z="false" angle_threshold="90" layer="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_tze_tzeentch" season_mask=""/>
+			<ECTransform position="-0.29681 -0.526 0.29842" rotation="-180 -41.00009 180" scale="2.90767 2.90768 2.90767" pivot="0 0 0"/>
+		</entity>
+		<entity id="105d4b0998b3808">
+			<ECDecal model_path="rigidmodels/campaign/decals/nur/nur_flesh_crack_03.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" fade_start="0.875" mirror_x="false" mirror_z="false" angle_threshold="90" layer="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="-0.29684 -0.526 0.29844" rotation="-180 -41.00009 180" scale="2.90767 2.90768 2.90767" pivot="0 0 0"/>
+		</entity>
+		<entity id="1db32b7fe9549e1">
+			<ECDecal model_path="rigidmodels/campaign/decals/sla/sla_skincrack_03.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" fade_start="0.875" mirror_x="false" mirror_z="false" angle_threshold="90" layer="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_sla_slaanesh" season_mask=""/>
+			<ECTransform position="-0.29681 -0.526 0.29842" rotation="-180 -41.00009 180" scale="2.90767 2.90768 2.90767" pivot="0 0 0"/>
+		</entity>
+		<entity id="17a40ed92b56725">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh2_dlc09_campaign_enviro_poison_river_blood" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_kho_khorne" season_mask=""/>
+			<ECTransform position="-0.04072 0.17339 -0.45401" rotation="0 30 0" scale="0.6 0.6 0.6" pivot="0 0 0"/>
+		</entity>
+		<entity id="16b64fa29c28b59">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh3_main_campaign_fire_flies_tzeentch" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_tze_tzeentch" season_mask=""/>
+			<ECTransform position="-0.07782 -0.2609 0.18112" rotation="180 -6.00005 180" scale="1.2 1.2 1.2" pivot="0 0 0"/>
+		</entity>
+		<entity id="1a31b069675bf41">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh3_main_campaign_enviro_spores_yellow" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="0.18084 0.14221 -0.30221" rotation="-180 31 180" scale="1.2 1.2 1.2" pivot="0 0 0"/>
+		</entity>
+		<entity id="13bcfb5b2fe7194">
+			<ECPointLight colour="255 34 37 255" colour_scale="500000" radius="1.7999992370605469" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECCampaignProperties culture_mask="wh3_main_kho_khorne"/>
+			<ECTransform position="0.28126 1.44012 -0.15465" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="199951fcf0e5219">
+			<ECPointLight colour="36 171 255 255" colour_scale="500000" radius="1.7999992370605469" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECCampaignProperties culture_mask="wh3_main_tze_tzeentch"/>
+			<ECTransform position="0.28125 1.00839 -0.15465" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="13e0092a6db03f2">
+			<ECPointLight colour="208 255 38 255" colour_scale="500000" radius="1.7999992370605469" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECCampaignProperties culture_mask="wh3_main_nur_nurgle"/>
+			<ECTransform position="0.28129 1.22759 -0.15465" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="1a24de68daf4e0d">
+			<ECPointLight colour="255 158 247 255" colour_scale="500000" radius="1.7999992370605469" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECCampaignProperties culture_mask="wh3_main_sla_slaanesh"/>
+			<ECTransform position="0.28126 1.00839 -0.15465" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="16a70fe4fe238d5" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="16a70fe4fe238d5">
+				<to id="145b77fd7517a2d"/>
+				<to id="178f234b1954b06"/>
+				<to id="105d4b0998b3808"/>
+				<to id="1db32b7fe9549e1"/>
+				<to id="17a40ed92b56725"/>
+				<to id="16b64fa29c28b59"/>
+				<to id="1a31b069675bf41"/>
+				<to id="13bcfb5b2fe7194"/>
+				<to id="199951fcf0e5219"/>
+				<to id="13e0092a6db03f2"/>
+				<to id="1a24de68daf4e0d"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

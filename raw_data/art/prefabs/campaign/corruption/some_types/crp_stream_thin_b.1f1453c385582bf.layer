@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_stream_thin_b -->
+<layer version="41">
+	<entities>
+		<entity id="12c0927975a12f5">
+			<ECPropMesh/>
+			<ECMesh model_path="RigidModels/campaign/generic_props/lava/ws_campaign_lava_stream_thin.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh_dlc03_bst_beastmen,wh_main_chs_chaos,wh3_main_dae_daemons,wh_dlc08_nor_norsca" season_mask=""/>
+			<ECTransform position="-0.00673 2.55894 -0.00179" rotation="0 85.99996 0" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="139213577e57e26">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/lava/kho_stream_thin.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_kho_khorne" season_mask=""/>
+			<ECTransform position="-0.00673 2.55894 -0.00179" rotation="0 85.99996 0" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="18afa0779ed9bb9">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/lava/tze_stream_thin.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_tze_tzeentch" season_mask=""/>
+			<ECTransform position="-0.00673 2.55894 -0.00179" rotation="0 85.99996 0" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="115c9d53c7faf99">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/lava/nur_stream_thin.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="-0.00673 2.55894 -0.00179" rotation="0 85.99996 0" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="1676c31efba0e40">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/lava/sla_stream_thin.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_sla_slaanesh" season_mask=""/>
+			<ECTransform position="-0.00673 2.55894 -0.00179" rotation="0 85.99996 0" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="1a40b634f55bc71">
+			<ECSoundMarker key="Sound_Environment_Corruption_Ooze_Nurgle_Loop" />
+			<ECTransform position="0.01998 2.5464 0.01092" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask="wh3_main_nur_nurgle"/>
+		</entity>
+		<entity id="186129a407c3b50">
+			<ECSoundMarker key="Sound_Environment_Corruption_Ooze_Khorne_Loop" />
+			<ECTransform position="0.01102 2.55052 0.0126" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask="wh3_main_kho_khorne"/>
+		</entity>
+		<entity id="18936ea270d0e89">
+			<ECSoundMarker key="Sound_Environment_Corruption_Ooze_Tzeentch_Loop" />
+			<ECTransform position="-0.0469 2.57767 -0.00601" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask="wh3_main_tze_tzeentch"/>
+		</entity>
+		<entity id="1268c7075d9e8a8">
+			<ECSoundMarker key="Sound_Environment_Corruption_Ooze_Slaanesh_Loop" />
+			<ECTransform position="0.01419 2.5493 -0.00784" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask="wh3_main_sla_slaanesh"/>
+		</entity>
+		<entity id="1c362376ecce05b">
+			<ECSoundMarker key="Sound_Environment_Corruption_Lava_Chaos_Loop" />
+			<ECTransform position="0.03538 2.53941 -0.00078" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask="wh3_main_dae_daemons"/>
+		</entity>
+		<entity id="1f721b46dfc6329" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+		<entity id="1b908b6a63ba95b" name="sound">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="1f721b46dfc6329">
+				<to id="12c0927975a12f5"/>
+				<to id="139213577e57e26"/>
+				<to id="18afa0779ed9bb9"/>
+				<to id="115c9d53c7faf99"/>
+				<to id="1676c31efba0e40"/>
+				<to id="1b908b6a63ba95b"/>
+			</from>
+			<from id="1b908b6a63ba95b">
+				<to id="1a40b634f55bc71"/>
+				<to id="186129a407c3b50"/>
+				<to id="18936ea270d0e89"/>
+				<to id="1268c7075d9e8a8"/>
+				<to id="1c362376ecce05b"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

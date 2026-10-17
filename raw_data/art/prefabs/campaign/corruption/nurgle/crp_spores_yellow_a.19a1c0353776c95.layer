@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_spores_yellow_a -->
+<layer version="41">
+	<entities>
+		<entity id="160c767d0ec8eed">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh3_main_campaign_enviro_spores_yellow" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="0.02641 0.18084 -0.01346" rotation="-173.98102 -30.70199 175.78428" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="13a8807865e88ee">
+			<ECPointLight colour="236 165 0 255" colour_scale="700000" radius="0.49999985098838806" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECCampaignProperties culture_mask="wh3_main_nur_nurgle"/>
+			<ECTransform position="-0.02623 0.15604 0.01369" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+		</entity>
+		<entity id="1cd16113adccbf2" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="1cd16113adccbf2">
+				<to id="160c767d0ec8eed"/>
+				<to id="13a8807865e88ee"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

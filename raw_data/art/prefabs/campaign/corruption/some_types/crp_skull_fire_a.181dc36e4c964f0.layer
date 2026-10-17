@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_skull_fire_a -->
+<layer version="41">
+	<entities>
+		<entity id="1c6729deea881e6">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_skull_fire_turquoise" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="wh_main_vmp_vampire_counts,wh2_dlc11_cst_vampire_coast" season_mask=""/>
+			<ECTransform position="0 1.70502 0" rotation="32.68222 -54.79902 1.36564" scale="0.5 0.4999 0.5" pivot="0 0 0"/>
+		</entity>
+		<entity id="17a56a6f9f2dffe">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_skull_fire_green" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh2_main_skv_skaven,wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="0 1.70502 0" rotation="32.68222 -54.79902 1.36564" scale="0.5 0.4999 0.5" pivot="0 0 0"/>
+		</entity>
+		<entity id="1502710d476e7b1">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_skull_fire_red" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_kho_khorne" season_mask=""/>
+			<ECTransform position="0 1.70502 0" rotation="32.68222 -54.79902 1.36564" scale="0.5 0.4999 0.5" pivot="0 0 0"/>
+		</entity>
+		<entity id="1da7850c36af51c" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="1da7850c36af51c">
+				<to id="1c6729deea881e6"/>
+				<to id="17a56a6f9f2dffe"/>
+				<to id="1502710d476e7b1"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

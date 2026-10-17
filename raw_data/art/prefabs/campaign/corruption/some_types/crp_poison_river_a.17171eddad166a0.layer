@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_poison_river_a -->
+<layer version="41">
+	<entities>
+		<entity id="1244093bef0959c">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh2_dlc09_campaign_enviro_poison_river_blood" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_kho_khorne" season_mask=""/>
+			<ECTransform position="0 0.49587 0" rotation="-1.024 16.48179 4.10204" scale="0.7 0.7 0.7" pivot="0 0 0"/>
+		</entity>
+		<entity id="1741922fca35023">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh3_main_campaign_enviro_tzeentch_sparkles" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_tze_tzeentch" season_mask=""/>
+			<ECTransform position="0 0.49587 0" rotation="-1.024 16.48179 4.10204" scale="0.3 0.3 0.3" pivot="0 0 0"/>
+		</entity>
+		<entity id="1a32b9087079c83">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_enviro_spores" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="0 0.49587 0" rotation="-1.024 16.4818 4.10204" scale="0.7 0.7 0.7" pivot="0 0 0"/>
+		</entity>
+		<entity id="1d735969a42e157" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="1d735969a42e157">
+				<to id="1244093bef0959c"/>
+				<to id="1741922fca35023"/>
+				<to id="1a32b9087079c83"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

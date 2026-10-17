@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dvst_crater_s_crater_s_warpstone_s_d -->
+<layer version="41">
+	<entities>
+		<entity id="16a9840eca4adec">
+			<ECDecal model_path="rigidmodels/campaign/decals/craters/cwb_chs_crater_02.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" fade_start="0.875" mirror_x="true" mirror_z="true" angle_threshold="180" layer="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.17033 0.0723 0.19241" rotation="-6.91136 46.80251 -10.45266" scale="2.18073 1.79839 2.18073" pivot="0 0 0"/>
+		</entity>
+		<entity id="1ec1e7ee12f7110">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh3_dlc29_enviro_destruction_chaos_small" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="-0.08851 0.86629 0.04954" rotation="0.00001 -83.14001 -0.00001" scale="1.37106 1.37106 1.37106" pivot="0 0 0"/>
+		</entity>
+		<entity id="12a1a7efa44ffb0">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_light_smoke" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="-0.08851 0.86629 0.04954" rotation="0.00001 -83.14001 -0.00001" scale="0.90403 0.90403 0.90403" pivot="0 0 0"/>
+		</entity>
+		<entity id="11fdf0dc26e808a">
+			<ECPointLight colour="255 144 32 255" colour_scale="500000" radius="2.052915096282959" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR" for_light_probes_only="false"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECCampaignProperties culture_mask=""/>
+			<ECTransform position="-0.08851 0.15003 0.04954" rotation="0 -29.9861 0" scale="1.02773 1.02773 1.02773" pivot="0 0 0"/>
+		</entity>
+		<entity id="1ef00e1281378dd">
+			<ECSoundMarker key="Env_Dvst_Prfb_chs_crater_small" />
+			<ECTransform position="0 0.22072 0" rotation="0 -29.9861 0" scale="1.02773 1.02773 1.02773" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask=""/>
+			<ECSphere radius="0.462898850440979"/>
+		</entity>
+		<entity id="19171fadbe4625f">
+			<ECDecal model_path="rigidmodels/campaign/decals/craters/cwb_nag_crater_02.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" fade_start="0.875" mirror_x="true" mirror_z="true" angle_threshold="180" layer="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.17033 0.0723 0.19241" rotation="-6.91136 46.80251 -10.45266" scale="2.18073 1.79839 2.18073" pivot="0 0 0"/>
+		</entity>
+		<entity id="1f206ff9ee148cc">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh3_dlc29_nagash_campaign_crater_impact_small" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.01795 0.19608 0.03226" rotation="0 -73.06769 0" scale="1.32811 1.32811 1.32811" pivot="0 0 0"/>
+		</entity>
+		<entity id="1a23a3c837aa9e6">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh3_dlc29_nagash_campaign_rays_01" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.02911 0.19651 0.03406" rotation="-180 -63.73207 180" scale="1.7265 1.7265 1.7265" pivot="0 0 0"/>
+		</entity>
+		<entity id="188a4ffd975fc38">
+			<ECPointLight colour="110 213 194 255" colour_scale="400000" radius="2.7372186183929443" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR" for_light_probes_only="false"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECCampaignProperties culture_mask=""/>
+			<ECTransform position="0.01999 0.44716 0.01302" rotation="0 -29.9861 0" scale="1.02773 1.02773 1.02773" pivot="0 0 0"/>
+		</entity>
+		<entity id="17f85ec249dfef3">
+			<ECSoundMarker key="Env_Dvst_Prfb_nag_crater_small" />
+			<ECTransform position="0.04085 0.22439 0.03125" rotation="0 -29.9861 0" scale="1.02773 1.02773 1.02773" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask=""/>
+			<ECSphere radius="0.462898850440979"/>
+		</entity>
+		<entity id="1e447cd268ea3f0">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/gen_rocks/gen_warpstone_02.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.05836 0.2754 0.24749" rotation="-171.02294 20.92383 -10.72491" scale="0.31174 0.37924 0.31174" pivot="0 0 0"/>
+		</entity>
+		<entity id="1f081bc8f92ae33">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_gem_03.rigid_model_v2" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="-0.01071 0.21034 0.23999" rotation="-172.63642 28.56518 34.84841" scale="0.31325 0.31325 0.31325" pivot="0 0 0"/>
+		</entity>
+		<entity id="1e30934630fa8ae">
+			<ECDecal model_path="rigidmodels/campaign/decals/craters/cwb_crater_02.rigid_model_v2" parallax_scale="0" tiling="0" tiling_alpha_enabled="false" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" fade_start="0.875" mirror_x="true" mirror_z="true" angle_threshold="90" layer="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.17033 0.0723 0.19241" rotation="-6.91136 46.80251 -10.45266" scale="2.18073 1.79839 2.18073" pivot="0 0 0"/>
+		</entity>
+		<entity id="19b1e7020cc6a11">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_gem_01.rigid_model_v2" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.17228 0.28785 -0.01333" rotation="-2.34495 -0.51649 179.80547" scale="0.26534 0.26534 0.26534" pivot="0 0 0"/>
+		</entity>
+		<entity id="13c8c3fab9c1820">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_gem_03.rigid_model_v2" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.18529 0.1926 -0.00145" rotation="-33.11111 27.93039 -35.76199" scale="0.31325 0.31325 0.31325" pivot="0 0 0"/>
+		</entity>
+		<entity id="16fdfc96ca4c86a">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/gen_rocks/gen_warpstone_02.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.25398 -0.04698 0.2901" rotation="163.14342 27.99787 175.15036" scale="0.31174 0.43635 0.31174" pivot="0 0 0"/>
+		</entity>
+		<entity id="1324638c81f1953">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_gem_02.rigid_model_v2" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="-0.19814 0.18821 0.05753" rotation="17.68259 -7.57319 164.32515" scale="0.31325 0.31325 0.31325" pivot="0 0 0"/>
+		</entity>
+		<entity id="1952d7721f08d79">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_gem_01.rigid_model_v2" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="-0.10986 0.31336 0.08882" rotation="177.26195 7.52214 -5.06255" scale="0.26906 0.26906 0.26906" pivot="0 0 0"/>
+		</entity>
+		<entity id="137b3f85dfa3945">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_gem_03.rigid_model_v2" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="-0.18579 0.22046 0.11283" rotation="142.37513 -33.78264 -147.1486" scale="0.31325 0.31325 0.31325" pivot="0 0 0"/>
+		</entity>
+		<entity id="1f71471e0c5a5fe">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_gem_02.rigid_model_v2" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="false" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.26416 0.23253 0.02604" rotation="-163.99133 0.75772 10.32365" scale="0.31325 0.31325 0.31325" pivot="0 0 0"/>
+		</entity>
+		<entity id="19d1feed39da79f">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh2_main_campaign_enviro_warpstone" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
+			<ECTransform position="0.06842 0.503 0.15204" rotation="0 -42.06801 0" scale="1.12765 1.12765 1.12765" pivot="0 0 0"/>
+		</entity>
+		<entity id="105b6ad838d6781">
+			<ECPointLight colour="205 255 97 255" colour_scale="300000" radius="2.2512712478637695" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR" for_light_probes_only="false"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECCampaignProperties culture_mask=""/>
+			<ECTransform position="0.12471 1.0703 -0.00506" rotation="0 -29.9861 0" scale="1.02773 1.02773 1.02773" pivot="0 0 0"/>
+		</entity>
+		<entity id="12875f065752d8a">
+			<ECSoundMarker key="Env_Dvst_Prfb_skv_warpstone_small" />
+			<ECTransform position="0.35479 0.28399 0.03308" rotation="0 -29.9861 0" scale="1.02773 1.02773 1.02773" pivot="0 0 0"/>
+			<ECCampaignProperties culture_mask=""/>
+		</entity>
+		<entity id="1cadca9281a067b" name="devastation_chaos">
+			<ECLayer export="true" bmd_export_type="devastation_chaos"/>
+		</entity>
+		<entity id="107d4279ceced69" name="sound">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+		<entity id="1de1583c6b0c8a6" name="devastation_nagash">
+			<ECLayer export="true" bmd_export_type="devastation_nagash"/>
+		</entity>
+		<entity id="1668f541cd15fdc" name="sound">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+		<entity id="165032d30ceee40" name="devastation_skaven">
+			<ECLayer export="true" bmd_export_type="devastation_skaven"/>
+		</entity>
+		<entity id="1c67045c01d6f49" name="sound">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="1cadca9281a067b">
+				<to id="16a9840eca4adec"/>
+				<to id="1ec1e7ee12f7110"/>
+				<to id="12a1a7efa44ffb0"/>
+				<to id="11fdf0dc26e808a"/>
+				<to id="107d4279ceced69"/>
+			</from>
+			<from id="107d4279ceced69">
+				<to id="1ef00e1281378dd"/>
+			</from>
+			<from id="1de1583c6b0c8a6">
+				<to id="19171fadbe4625f"/>
+				<to id="1f206ff9ee148cc"/>
+				<to id="1a23a3c837aa9e6"/>
+				<to id="188a4ffd975fc38"/>
+				<to id="1668f541cd15fdc"/>
+			</from>
+			<from id="1668f541cd15fdc">
+				<to id="17f85ec249dfef3"/>
+			</from>
+			<from id="165032d30ceee40">
+				<to id="1e447cd268ea3f0"/>
+				<to id="1f081bc8f92ae33"/>
+				<to id="1e30934630fa8ae"/>
+				<to id="19b1e7020cc6a11"/>
+				<to id="13c8c3fab9c1820"/>
+				<to id="16fdfc96ca4c86a"/>
+				<to id="1324638c81f1953"/>
+				<to id="1952d7721f08d79"/>
+				<to id="137b3f85dfa3945"/>
+				<to id="1f71471e0c5a5fe"/>
+				<to id="19d1feed39da79f"/>
+				<to id="105b6ad838d6781"/>
+				<to id="1c67045c01d6f49"/>
+			</from>
+			<from id="1c67045c01d6f49">
+				<to id="12875f065752d8a"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

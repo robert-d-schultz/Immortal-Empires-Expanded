@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_tumour_squirm_a -->
+<layer version="41">
+	<entities>
+		<entity id="1b73d8100d7a728">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/chaos_props/chs_tumour_02_squirm.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh_dlc03_bst_beastmen,wh_main_chs_chaos" season_mask=""/>
+			<ECTransform position="0.45056 0.07715 -0.84119" rotation="0.28045 73.98954 0.49462" scale="1.12871 1.12871 1.12871" pivot="0 0 0"/>
+		</entity>
+		<entity id="1d78049af075c17">
+			<ECPropMesh/>
+			<ECMesh model_path="rigidmodels/campaign/generic_props/chaos_props/chs_tumour_02_squirm.wsmodel" opacity="1"/>
+			<ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh_dlc03_bst_beastmen,wh_main_chs_chaos" season_mask=""/>
+			<ECTransform position="-0.4503 0.06095 0.841" rotation="-6.3138 0.52747 12.57931" scale="1.1287 1.12871 1.1287" pivot="0 0 0"/>
+		</entity>
+		<entity id="1770afa38a894e3" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="1770afa38a894e3">
+				<to id="1b73d8100d7a728"/>
+				<to id="1d78049af075c17"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>

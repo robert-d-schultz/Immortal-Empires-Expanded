@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- crp_skull_fire_c -->
+<layer version="41">
+	<entities>
+		<entity id="17a40cc72d052ba">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_skull_fire_turquoise" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="wh_main_vmp_vampire_counts,wh2_dlc11_cst_vampire_coast" season_mask=""/>
+			<ECTransform position="0.45537 2.13906 0.01848" rotation="36.88684 -2.86928 0.50512" scale="0.6036 0.6036 0.6036" pivot="0 0 0"/>
+		</entity>
+		<entity id="1938276ac439a42">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_skull_fire_turquoise" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="wh_main_vmp_vampire_counts,wh2_dlc11_cst_vampire_coast" season_mask=""/>
+			<ECTransform position="-0.4547 2.18531 -0.01939" rotation="36.88684 -2.86928 0.50512" scale="0.6036 0.6036 0.6036" pivot="0 0 0"/>
+		</entity>
+		<entity id="17419279f8f1de8">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_skull_fire_green" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh2_main_skv_skaven,wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="0.45537 2.13906 0.01848" rotation="36.88684 -2.86928 0.50512" scale="0.6036 0.6036 0.6036" pivot="0 0 0"/>
+		</entity>
+		<entity id="1e759efb0565ecc">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_skull_fire_green" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh2_main_skv_skaven,wh3_main_nur_nurgle" season_mask=""/>
+			<ECTransform position="-0.4547 2.18531 -0.01939" rotation="36.88684 -2.86928 0.50512" scale="0.6036 0.6036 0.6036" pivot="0 0 0"/>
+		</entity>
+		<entity id="1fae5ca405d69f9">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_skull_fire_red" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_kho_khorne" season_mask=""/>
+			<ECTransform position="-0.4547 2.18531 -0.01939" rotation="36.88684 -2.86928 0.50512" scale="0.6036 0.6036 0.6036" pivot="0 0 0"/>
+		</entity>
+		<entity id="1e71ec3eea8ea54">
+			<ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
+			<ECVFX vfx="wh_main_campaign_skull_fire_red" autoplay="true" scale="1" instance_name=""/>
+			<ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="wh3_main_kho_khorne" season_mask=""/>
+			<ECTransform position="0.45537 2.13906 0.01848" rotation="36.88684 -2.86928 0.50512" scale="0.6036 0.6036 0.6036" pivot="0 0 0"/>
+		</entity>
+		<entity id="10d8f2de0074708" name="uses_culture_mask">
+			<ECLayer export="true" bmd_export_type=""/>
+		</entity>
+	</entities>
+	<associations>
+		<Logical>
+			<from id="10d8f2de0074708">
+				<to id="17a40cc72d052ba"/>
+				<to id="1938276ac439a42"/>
+				<to id="17419279f8f1de8"/>
+				<to id="1e759efb0565ecc"/>
+				<to id="1fae5ca405d69f9"/>
+				<to id="1e71ec3eea8ea54"/>
+			</from>
+		</Logical>
+		<Transform/>
+	</associations>
+</layer>
