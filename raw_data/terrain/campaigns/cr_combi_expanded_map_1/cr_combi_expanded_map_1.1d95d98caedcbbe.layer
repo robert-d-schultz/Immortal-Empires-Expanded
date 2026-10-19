@@ -288632,21 +288632,6 @@
       <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
       <ECDLCMask type="Exclude" mask=""/>
     </entity>
-    <entity id="13605aae1779936">
-      <ECSoundMarker key="Sound_Environment_Coastal_Waves_Rock"/>
-      <ECTransform position="598.834717 0.733389974 9.55945015" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-      <ECPolyline3D>
-        <polyline3d closed="false">
-          <point x="0" y="0" z="0"/>
-          <point x="-12.906189" y="0" z="4.02751923"/>
-          <point x="-16.182373" y="0" z="3.72401905"/>
-          <point x="-27.5232544" y="0" z="16.015419"/>
-        </polyline3d>
-      </ECPolyline3D>
-      <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
-      <ECDLCMask type="Exclude" mask=""/>
-    </entity>
     <entity id="1d87dfefa8c670d" name="uses_culture_mask">
       <ECLayer export="true" bmd_export_type=""/>
       <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
@@ -305852,7 +305837,6 @@
         <to id="1085ed60a35e352"/>
         <to id="1220a7d770da443"/>
         <to id="141504c64ba9ef6"/>
-        <to id="13605aae1779936"/>
       </from>
       <from id="1d87dfefa8c670d">
         <to id="1e4e8d7caafa903"/>
