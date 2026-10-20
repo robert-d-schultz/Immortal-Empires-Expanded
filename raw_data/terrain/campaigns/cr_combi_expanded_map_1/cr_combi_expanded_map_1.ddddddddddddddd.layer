@@ -352,17 +352,6 @@
       <ECTransform position="62.4605255 3.2174201 742.845642" rotation="71.8665009 264.614288 105.719337" scale="0.999997079 0.999996066 0.999999046" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
     </entity>
-    <entity id="19684acdf774818">
-      <ECPropMesh/>
-      <ECMesh model_path="rigidmodels/campaign/gen_cliffs_floating/gen_cliff_floating_01.wsmodel" opacity="1"/>
-      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false" blend_edges_with_terrain="0"/>
-      <ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
-      <ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
-      <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="false" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
-      <ECDLCMask type="Exclude" mask=""/>
-      <ECTransform position="18.4474945 4.57206917 728.443237" rotation="-30.4557171 96.3894806 -41.1996155" scale="0.503997147 0.503999174 0.503997386" pivot="0 0 0"/>
-      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-    </entity>
     <entity id="19696c527bf537b">
       <ECVFX vfx="wh2_main_large_snow_drift_bright" autoplay="true" scale="1" instance_name=""/>
       <ECVisibilitySettingsCampaign visible_in_tactical_view="false" visible_in_tactical_view_only="false"/>
@@ -4172,7 +4161,7 @@
       <ECPropHeightPatch apply_height_patch="false" for_camera_height_map_only="false"/>
       <ECCampaignProperties visible_inside_snow_region="true" visible_outside_snow_region="true" visible_inside_destruction_region="true" visible_outside_destruction_region="true" visible_in_shroud="true" visible_in_shroud_only="false" no_culling="false" culture_mask="" season_mask=""/>
       <ECDLCMask type="Exclude" mask=""/>
-      <ECTransform position="29.2267857 4.72276545 705.179626" rotation="-13.7364864 -6.48616123 -3.93047857" scale="0.999997854 0.999998987 0.999999404" pivot="0 0 0"/>
+      <ECTransform position="29.2267857 4.72276545 705.179626" rotation="-13.7364874 -6.48616123 -3.93047833" scale="0.999997795 0.999998987 0.999999344" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
     </entity>
     <entity id="1966ff835544f1e">
@@ -6002,7 +5991,6 @@
         <to id="196746754d0385a"/>
         <to id="196746c439a385c"/>
         <to id="19684927ce44814"/>
-        <to id="19684acdf774818"/>
         <to id="19696c527bf537b"/>
         <to id="19696c68b09537f"/>
         <to id="19696c75c065381"/>
